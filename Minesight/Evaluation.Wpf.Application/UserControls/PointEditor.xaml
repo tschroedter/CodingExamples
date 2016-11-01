@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="Evaluation.Wpf.Application.UserControls.PointEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:validationRules="clr-namespace:Evaluation.Wpf.Application.Common.ValidationRules"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <DockPanel>
+                <TextBlock Foreground="Red"
+                           FontSize="18"
+                           FontWeight="Bold">
+                    !
+                </TextBlock>
+                <AdornedElementPlaceholder />
+            </DockPanel>
+        </ControlTemplate>
+        <Style x:Key="TextBoxInError" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"
+                            Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                                    Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Grid.Column="0">
+            X
+        </Label>
+        <TextBox Grid.Row="0"
+                 Grid.Column="2"
+                 Name="X"
+                 Validation.ErrorTemplate="{StaticResource ValidationTemplate}"
+                 Style="{StaticResource TextBoxInError}">
+            <TextBox.Text>
+                <Binding Path="X"
+                         UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validationRules:DoubleValidationRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Grid.Row="1"
+               Grid.Column="0">
+            Y
+        </Label>
+        <TextBox Grid.Row="1"
+                 Grid.Column="2"
+                 Name="Y"
+                 Validation.ErrorTemplate="{StaticResource ValidationTemplate}"
+                 Style="{StaticResource TextBoxInError}">
+            <TextBox.Text>
+                <Binding Path="Y"
+                         UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validationRules:DoubleValidationRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Grid.Row="2"
+               Grid.Column="0">
+            Z
+        </Label>
+        <TextBox Grid.Row="2"
+                 Grid.Column="2"
+                 Name="Z"
+                 Validation.ErrorTemplate="{StaticResource ValidationTemplate}"
+                 Style="{StaticResource TextBoxInError}">
+            <TextBox.Text>
+                <Binding Path="Z"
+                         UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validationRules:DoubleValidationRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>doctorsView</title>
+    <script src="/demo/node_modules/angular/angular.js"></script>
+    <script src="ocrApp.js"></script>
+    <script src="ocrLinesValidator.js"></script>
+    <script src="ocrIsDigitZeroToNine.js"></script>
+    <script src="ocrDigitToNumberConverter.js"></script>
+    <script src="ocrDigitsToNumbersConverter.js"></script>
+    <script src="ocrLinesToDigitsConverter.js"></script>
+    <script src="ocrLinesToPackOfFourLines.js"></script>
+    <script src="ocrTextToNumbersConverter.js"></script>
+    <script src="ocrChecksumValidator.js"></script>
+    <script src="ocrNumbersChecksumValidator.js"></script>
+    <script src="ocrController.js"></script>
+</head>
+<body>
+<div ng-app="ocrApp" ng-controller="ocrController">
+    <p>
+        <textarea rows="16"
+                  cols="27"
+                  ng-bind="ocrController.linesText"
+                  readonly>
+        </textarea>
+    </p>
+    <p>
+        <button type="button"
+                ng-click="ocrController.onClickValidate(ocrController)">Validate Lines</button>
+        <button type="button"
+                ng-click="ocrController.onClickConvert(ocrController)">Convert</button>
+    </p>
+    <p>
+        <textarea rows="4"
+                  cols="18"
+                  ng-bind="ocrController.numbersText"
+                  readonly>
+        </textarea>
+    </p>
+    <p>
+        <button type="button"
+                ng-click="ocrController.onClickChecksumValidate(ocrController)">Checksum</button>
+    </p>
+    <p>
+        <textarea rows="4"
+                  cols="20"
+                  ng-bind="ocrController.numbersChecksumText"
+                  readonly>
+        </textarea>
+    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="Evaluation.Wpf.Application.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:userControls="clr-namespace:Evaluation.Wpf.Application.UserControls"
+        Title="MainView" Height="508" Width="300">
+    <StackPanel Margin="5">
+        <Label FontStyle="Italic">Source File</Label>
+        <userControls:SourceFileSelector DataContext="{Binding SourceFileSelectorViewModel}" />
+        <Separator />
+        <Label FontStyle="Italic">Query Point</Label>
+        <userControls:PointEditor DataContext="{Binding QueryPointViewModel}" />
+        <Separator />
+        <Label FontStyle="Italic">Shift Point</Label>
+        <userControls:PointEditor DataContext="{Binding ShiftPointViewModel}" />
+        <Separator />
+        <Label FontStyle="Italic">Specify how many point IDs should be calculated</Label>
+        <userControls:NumberOfPoints DataContext="{Binding NumberOfPointsViewModel}" />
+        <Separator Height="20" />
+        <Button Command="{Binding CalculateCommand}">Calculate</Button>
+        <Separator Height="20" />
+        <Label FontStyle="Italic"
+               FontWeight="Bold">
+            Points close to Query Point
+        </Label>
+        <userControls:ClosestPointsFinder DataContext="{Binding ClosestPointsFinderViewModel}" />
+    </StackPanel>
+</Window>

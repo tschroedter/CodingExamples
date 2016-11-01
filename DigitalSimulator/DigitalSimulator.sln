@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSim", "DSim\DSim.csproj", "{50103499-85A0-4AEB-9A26-D3D9C2618845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSim.Tests", "DSim.Tests\DSim.Tests.csproj", "{9B214BE7-B111-48EA-BF0D-1B85317CEE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSim.Tests.Specflow", "DSim.Tests.Specflow\DSim.Tests.Specflow.csproj", "{EDAE6218-34DB-49FF-92E9-C55968D83E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50103499-85A0-4AEB-9A26-D3D9C2618845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50103499-85A0-4AEB-9A26-D3D9C2618845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50103499-85A0-4AEB-9A26-D3D9C2618845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50103499-85A0-4AEB-9A26-D3D9C2618845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B214BE7-B111-48EA-BF0D-1B85317CEE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B214BE7-B111-48EA-BF0D-1B85317CEE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B214BE7-B111-48EA-BF0D-1B85317CEE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B214BE7-B111-48EA-BF0D-1B85317CEE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAE6218-34DB-49FF-92E9-C55968D83E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAE6218-34DB-49FF-92E9-C55968D83E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAE6218-34DB-49FF-92E9-C55968D83E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAE6218-34DB-49FF-92E9-C55968D83E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

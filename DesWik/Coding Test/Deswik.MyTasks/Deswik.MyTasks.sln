@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deswik.MyTasks", "Deswik.MyTasks.csproj", "{90185157-6C0B-405A-95A9-3C186E4AD5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deswik.MyTasks.Tests", "Deswik.MyTasks.Tests\Deswik.MyTasks.Tests.csproj", "{09AC1CD3-9A9A-4EEE-BC4F-DB11A8AA27BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deswik.MyTasks.Entities", "Deswik.MyTasks.Entities\Deswik.MyTasks.Entities.csproj", "{6B75D747-3D5B-4EE3-B22C-5274D6FF4A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deswik.MyTasks.Domain", "Deswik.MyTasks.Domain\Deswik.MyTasks.Domain.csproj", "{5E64EE38-F485-4FC5-A080-2E3B8052283B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77858294-EF2C-4CFB-A334-4520E919C2F8}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deswik.MyTasks.DAL", "Deswik.MyTasks.DAL\Deswik.MyTasks.DAL.csproj", "{530B5D63-706E-4D1F-842B-4F01F5496754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90185157-6C0B-405A-95A9-3C186E4AD5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90185157-6C0B-405A-95A9-3C186E4AD5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90185157-6C0B-405A-95A9-3C186E4AD5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90185157-6C0B-405A-95A9-3C186E4AD5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AC1CD3-9A9A-4EEE-BC4F-DB11A8AA27BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AC1CD3-9A9A-4EEE-BC4F-DB11A8AA27BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AC1CD3-9A9A-4EEE-BC4F-DB11A8AA27BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AC1CD3-9A9A-4EEE-BC4F-DB11A8AA27BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B75D747-3D5B-4EE3-B22C-5274D6FF4A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B75D747-3D5B-4EE3-B22C-5274D6FF4A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B75D747-3D5B-4EE3-B22C-5274D6FF4A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B75D747-3D5B-4EE3-B22C-5274D6FF4A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E64EE38-F485-4FC5-A080-2E3B8052283B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E64EE38-F485-4FC5-A080-2E3B8052283B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E64EE38-F485-4FC5-A080-2E3B8052283B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E64EE38-F485-4FC5-A080-2E3B8052283B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530B5D63-706E-4D1F-842B-4F01F5496754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530B5D63-706E-4D1F-842B-4F01F5496754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530B5D63-706E-4D1F-842B-4F01F5496754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530B5D63-706E-4D1F-842B-4F01F5496754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

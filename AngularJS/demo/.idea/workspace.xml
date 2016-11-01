@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fce7f28-89dd-4a92-b234-07104c8aa7b6" name="Default" comment="" />
+    <ignored path="demo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="demo" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.49720323">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="ocrLinesValidator.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrLinesValidator.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ocrController.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrController.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/karma.conf.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="840">
+                  <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ocrChecksumValidator.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrChecksumValidator.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ocrNumbersChecksumValidator.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrNumbersChecksumValidator.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1248">
+                  <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="ocrView.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrView.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="696">
+                  <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ocrController_tests.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrController_tests.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="335">
+                  <caret line="228" column="0" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#1454#1665#0" expanded="false" />
+                    <element signature="e#1744#1975#0" expanded="false" />
+                    <element signature="e#2046#2269#0" expanded="false" />
+                    <element signature="e#2348#2579#0" expanded="false" />
+                    <element signature="e#2653#2879#0" expanded="false" />
+                    <element signature="e#2960#3193#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ocrNumbersChecksumValidator_tests.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrNumbersChecksumValidator_tests.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2448">
+                  <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/daysView/daysControllerNew.js" />
+        <option value="$PROJECT_DIR$/app/daysView/daysController.js" />
+        <option value="$PROJECT_DIR$/tests/app/doctorsView/daysControllerTests.js" />
+        <option value="$PROJECT_DIR$/app/doctorSlotsView/doctorSlotsController.js" />
+        <option value="$PROJECT_DIR$/tests/app/doctorsView/doctorSlotsControllerTests.js" />
+        <option value="$PROJECT_DIR$/app/slotsView/slotsController.js" />
+        <option value="$PROJECT_DIR$/tests/app/doctorsView/slotsControllerTests.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/doctorsView/doctorsController.js" />
+        <option value="$PROJECT_DIR$/tests/app/doctorsView/doctorsControllerTests.js" />
+        <option value="$PROJECT_DIR$/tests/app/bookingView/bookingControllerTests.js" />
+        <option value="$PROJECT_DIR$/app/bookingView/bookingView.html" />
+        <option value="$PROJECT_DIR$/app/daysView/daysView.html" />
+        <option value="$PROJECT_DIR$/app/doctorSlotsView/doctorSlotsView.html" />
+        <option value="$PROJECT_DIR$/app/doctorsView/doctorsView.html" />
+        <option value="$PROJECT_DIR$/app/slotsView/slotsView.html" />
+        <option value="$PROJECT_DIR$/app/bookingView/bookingController_tests.js" />
+        <option value="$PROJECT_DIR$/app/mainApp.js" />
+        <option value="$PROJECT_DIR$/app/bookingView/bookingController.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLineValidator.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLinesTextValidator.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrApp.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLinesValidator_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrController_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLinesToDigitsConverter_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLinesToDigitsConverter.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrDigitToNumbeConverter.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrIsDigitOneToNine.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrDigitToNumberConverter_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrIsDigitOneToTen_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrDigitsToNumbersConverter_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrIsDigitZeroToNine.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrIsDigitZeroToNine_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrDigitsToNumbersConverter.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesToPackOfFourLines_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLinesValidator.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrTextToNumbersConverter_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrLinesToPackOfFourLines.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrTextToNumbersConverter.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrChecksumValidator_tests.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrChecksumValidator.js" />
+        <option value="$PROJECT_DIR$/app/webgl/first.html" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrDigitToNumberConverter.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrDigitToNumberConverter_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrDigitsToNumbersConverter_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrView.html" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrNumbersChecksumValidator.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrNumbersChecksumValidator_tests.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/ocrController.js" />
+        <option value="$PROJECT_DIR$/app/Kata/OCR/tests/ocrController_tests.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OCR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\Anja\AppData\Roaming\npm\node_modules\mocha" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\Anja\AppData\Roaming\npm\node_modules\grunt-cli" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\Kata\OCR" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\Kata\OCR\tests" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\slotsView" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\doctorsView" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\doctorSlotsView" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\Kata\OCR\tests" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\Kata\OCR" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\tests\app\bookingView" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\app\daysView" />
+      <recent name="C:\Users\Anja\WebstormProjects\demo\tests\app\doctorsView" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flights" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;Id&quot;:1,&quot;Arrival&quot;:&quot;0001-01-01T00:00:00&quot;,&quot;Departure&quot;:&quot;0001-01-01T00:00:00&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flights" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;Id&quot;:1,&quot;Arrival&quot;:&quot;0001-01-01T00:00:00&quot;,&quot;Departure&quot;:&quot;0001-01-01T00:00:00&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flights" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flightassignedtogate" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{&quot;GateId&quot;:1,&quot;FlightId&quot;:11,&quot;Id&quot;:1}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flightassignedtogate" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{ GateId:1, FlightId:11}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flightassignedtogate" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ GateId:1, FlightId:11}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="flightassignedtogate" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="/besttrail/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="/besttrails/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="/colonysettings/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="/colony/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579" />
+          <option name="urlPath" value="/colony/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579/colony/" />
+          <option name="urlPath" value="/colony/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:63579/colonies/" />
+          <option name="urlPath" value="/colonies/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Mocha.ocrLinesValidator.ocrLinesValidator should">
+    <configuration default="false" name="bookingController.updateSlots should.call doctorSlotsService for known dayId" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/app/bookingView/bookingControllerTests.js</test-file>
+      <test-names>
+        <name value="bookingController" />
+        <name value="updateSlots should" />
+        <name value="call doctorSlotsService for known dayId" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="ocrLinesToDigitsConverter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ocrLinesToDigitsConverter.js" working-dir="$PROJECT_DIR$/app/Kata/OCR">
+      <method />
+    </configuration>
+    <configuration default="false" name="app\Kata\OCR\tests\ocrLinesValidator_tests.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesValidator_tests.js</test-file>
+      <method />
+    </configuration>
+    <configuration default="false" name="ocrLinesValidator.ocrLinesValidator should.be defined" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesValidator_tests.js</test-file>
+      <test-names>
+        <name value="ocrLinesValidator" />
+        <name value="ocrLinesValidator should" />
+        <name value="be defined" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="ocrLinesValidator.ocrLinesValidator should" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesValidator_tests.js</test-file>
+      <test-names>
+        <name value="ocrLinesValidator" />
+        <name value="ocrLinesValidator should" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <force value="false" />
+      <verbose value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Mocha.bookingController.updateSlots should.call doctorSlotsService for known dayId" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.ocrLinesToDigitsConverter.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.app\Kata\OCR\tests\ocrLinesValidator_tests.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.ocrLinesValidator.ocrLinesValidator should.be defined" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.ocrLinesValidator.ocrLinesValidator should" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.ocrLinesValidator.ocrLinesValidator should" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.ocrLinesValidator.ocrLinesValidator should.be defined" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.app\Kata\OCR\tests\ocrLinesValidator_tests.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.ocrLinesToDigitsConverter.js" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.bookingController.updateSlots should.call doctorSlotsService for known dayId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fce7f28-89dd-4a92-b234-07104c8aa7b6" name="Default" comment="" />
+      <created>1461116263500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1461116263500</updated>
+      <workItem from="1461116264733" duration="5826000" />
+      <workItem from="1461130204483" duration="6214000" />
+      <workItem from="1461189097579" duration="12128000" />
+      <workItem from="1461221571659" duration="9052000" />
+      <workItem from="1461231992269" duration="17362000" />
+      <workItem from="1461320854026" duration="3960000" />
+      <workItem from="1461573502542" duration="10334000" />
+      <workItem from="1461619224890" duration="10759000" />
+      <workItem from="1461720062064" duration="21668000" />
+      <workItem from="1461824164831" duration="19785000" />
+      <workItem from="1461912607508" duration="1252000" />
+      <workItem from="1461930983881" duration="1042000" />
+      <workItem from="1464077540450" duration="20583000" />
+      <workItem from="1464153048143" duration="16652000" />
+      <workItem from="1464501818252" duration="5736000" />
+      <workItem from="1464566359314" duration="13189000" />
+      <workItem from="1464672835760" duration="4792000" />
+      <workItem from="1464732525082" duration="5026000" />
+      <workItem from="1464769727972" duration="6523000" />
+      <workItem from="1464851479131" duration="6292000" />
+      <workItem from="1465187384438" duration="62000" />
+      <workItem from="1465187596304" duration="700000" />
+      <workItem from="1467150096864" duration="1219000" />
+      <workItem from="1467157832416" duration="599000" />
+      <workItem from="1467189523234" duration="635000" />
+      <workItem from="1467272925105" duration="193000" />
+      <workItem from="1467929510315" duration="31000" />
+      <workItem from="1467929915117" duration="106000" />
+      <workItem from="1470997174325" duration="1245000" />
+      <workItem from="1471075188893" duration="111000" />
+      <workItem from="1474437198802" duration="6000" />
+    </task>
+    <task id="LOCAL-00027" summary="Code Clean-up">
+      <created>1461633566438</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1461633566438</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Code Clean-up">
+      <created>1461633584917</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1461633584917</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Code Clean-up">
+      <created>1461633667284</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1461633667284</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Code Clean-up">
+      <created>1461634730679</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1461634730679</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Code Clean-up">
+      <created>1461634798883</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1461634798883</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Code Clean-up">
+      <created>1461634917074</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1461634917074</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Code Clean-up">
+      <created>1461635102344</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1461635102344</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Code Clean-up">
+      <created>1461635259877</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1461635259877</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Code Clean-up">
+      <created>1461635476658</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1461635476658</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Code Clean-up">
+      <created>1461720579524</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1461720579524</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Code Clean-up">
+      <created>1461720671775</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1461720671775</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added views and moved controllers&#10;Added daysView.html">
+      <created>1461757571214</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1461757571214</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Code Clean-Up">
+      <created>1461757691807</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1461757691807</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Code Clean-Up">
+      <created>1461792743172</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1461792743172</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added doctorSlotsView">
+      <created>1461793259683</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1461793259683</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Code Clean-Up">
+      <created>1461793293576</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1461793293576</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added slotsView">
+      <created>1461794210882</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1461794210882</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Moved files">
+      <created>1461794298653</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1461794298653</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added doctorsView">
+      <created>1461794947785</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1461794947785</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Code Clean-Up">
+      <created>1461794999287</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1461794999287</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Unit test Clean-Up">
+      <created>1461837178381</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1461837178381</updated>
+    </task>
+    <task id="LOCAL-00048" summary="WIP: bookingController">
+      <created>1461837223151</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1461837223151</updated>
+    </task>
+    <task id="LOCAL-00049" summary="WIP: bookingController">
+      <created>1461840570330</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1461840570330</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Moved tests into other folders">
+      <created>1461840884914</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1461840884916</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Updated stuff">
+      <created>1461841067151</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1461841067151</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Updated stuff">
+      <created>1461841130103</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1461841130103</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Fixed services, now the handler is called correctly.">
+      <created>1461902234960</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1461902234960</updated>
+    </task>
+    <task id="LOCAL-00054" summary="More stuff">
+      <created>1461902250466</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1461902250466</updated>
+    </task>
+    <task id="LOCAL-00055" summary="A bit better">
+      <created>1461903423537</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1461903423537</updated>
+    </task>
+    <task id="LOCAL-00056" summary="A bit better">
+      <created>1461903474208</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1461903474208</updated>
+    </task>
+    <task id="LOCAL-00057" summary="A bit better">
+      <created>1461903537593</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1461903537593</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Working">
+      <created>1464398208530</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1464398208530</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Little code clea-up">
+      <created>1464398260520</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1464398260520</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Little code clea-up">
+      <created>1464502101330</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1464502101330</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Working">
+      <created>1464503351602</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1464503351602</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Working on rows">
+      <created>1464568385014</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1464568385014</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Multiple lines working test missing">
+      <created>1464599072730</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1464599072730</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Multiple lines working test missing">
+      <created>1464600123467</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1464600123467</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Working on checksum">
+      <created>1464677636656</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1464677636657</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Continue to work on checksum">
+      <created>1464734454075</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1464734454076</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Continue to work on checksum">
+      <created>1464734937173</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1464734937173</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Working on invalid digit ? or -1">
+      <created>1464771873659</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1464771873659</updated>
+    </task>
+    <task id="LOCAL-00069" summary="User Story 4 nearly done, code needs cleanup">
+      <created>1464830983537</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1464830983537</updated>
+    </task>
+    <task id="LOCAL-00070" summary="User Story 4 nearly done, code needs cleanup">
+      <created>1464831139298</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1464831139298</updated>
+    </task>
+    <task id="LOCAL-00071" summary="User Story 4 nearly done, code needs cleanup (better)">
+      <created>1464831328141</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1464831328141</updated>
+    </task>
+    <task id="LOCAL-00072" summary="User Story 4 nearly done, code needs cleanup (better)">
+      <created>1464850249371</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1464850249371</updated>
+    </task>
+    <task id="LOCAL-00073" summary="User Story 4 nearly done, code needs cleanup (better)">
+      <created>1464852048475</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1464852048476</updated>
+    </task>
+    <task id="LOCAL-00074" summary="User Story 4 nearly done">
+      <created>1464914506580</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1464914506580</updated>
+    </task>
+    <task id="LOCAL-00075" summary="User Story 4 nearly done">
+      <created>1464914790581</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1464914790581</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Array_#indexOf() - 2016.04.20 at 11h 48m 35s.xml">
+      <configuration name="Array.#indexOf()" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="app_Kata_OCR_tests_ocrLinesValidator_tests_js - 2016.06.01 at 15h 19m 31s.xml">
+      <configuration name="app\Kata\OCR\tests\ocrLinesValidator_tests.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="bookingController_updateSlots_should_call_doctorSlotsService_for_known_dayId - 2016.04.28 at 12h 22m 55s.xml">
+      <configuration name="bookingController.updateSlots should.call doctorSlotsService for known dayId" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="doctorsController_handleQueryResult_should_set_doctors_in_scope_setSelectedSlot_sets_doctorId_in_scope - 2016.04.20 at 16h 24m 53s.xml">
+      <configuration name="doctorsController.handleQueryResult should set doctors in scope.setSelectedSlot sets doctorId in scope" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="doctorsController_handleQueryResult_should_set_doctors_in_scope_setSelectedSlot_sets_doctorId_in_scope - 2016.04.21 at 08h 04m 09s.xml">
+      <configuration name="doctorsController.handleQueryResult should set doctors in scope.setSelectedSlot sets doctorId in scope" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="ocrLinesValidator_ocrLinesValidator_should - 2016.06.01 at 15h 30m 26s.xml">
+      <configuration name="ocrLinesValidator.ocrLinesValidator should" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="ocrLinesValidator_ocrLinesValidator_should_be_defined - 2016.06.01 at 15h 30m 07s.xml">
+      <configuration name="ocrLinesValidator.ocrLinesValidator should.be defined" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203082000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1932" height="1060" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16648993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32794458" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5942196" sideWeight="0.50318134" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23672055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33718246" sideWeight="0.49788582" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5942196" sideWeight="0.49681866" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33964497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39884394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed $scope" />
+    <MESSAGE value="Code Clean-up" />
+    <MESSAGE value="Added views and moved controllers&#10;Added daysView.html" />
+    <MESSAGE value="Added doctorSlotsView" />
+    <MESSAGE value="Added slotsView" />
+    <MESSAGE value="Moved files" />
+    <MESSAGE value="Added doctorsView" />
+    <MESSAGE value="Code Clean-Up" />
+    <MESSAGE value="Unit test Clean-Up" />
+    <MESSAGE value="WIP: bookingController" />
+    <MESSAGE value="Moved tests into other folders" />
+    <MESSAGE value="Updated stuff" />
+    <MESSAGE value="Fixed services, now the handler is called correctly." />
+    <MESSAGE value="More stuff" />
+    <MESSAGE value="A bit better" />
+    <MESSAGE value="Little code clea-up" />
+    <MESSAGE value="Working" />
+    <MESSAGE value="Working on rows" />
+    <MESSAGE value="Multiple lines working test missing" />
+    <MESSAGE value="Working on checksum" />
+    <MESSAGE value="Continue to work on checksum" />
+    <MESSAGE value="Working on invalid digit ? or -1" />
+    <MESSAGE value="User Story 4 nearly done, code needs cleanup" />
+    <MESSAGE value="User Story 4 nearly done, code needs cleanup (better)" />
+    <MESSAGE value="User Story 4 nearly done" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Story 4 nearly done" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="javascript">
+          <url>file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesToPackOfFourLines_tests.js</url>
+          <line>11</line>
+          <log-expression expression="        it('be defined', inject(function () {&#10;            // Arrange&#10;            // Act&#10;            // Assert&#10;            expect(sut).toBeDefined();&#10;        }));" language="JavaScript" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesValidator_tests.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="31" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/array-tests.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorsView/doctorsController_tests.js" />
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mainApp.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorsView/doctorsController.js" />
+    <entry file="file://$PROJECT_DIR$/tests/array-tests.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/daysView/daysControllerNew.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorSlotsView/doctorSlotsController.js" />
+    <entry file="file://$PROJECT_DIR$/app/slotsView/slotsController.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorSlotsView/doctorSlotsController_tests.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorsView/doctorsController.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorsView/doctorsController_tests.js" />
+    <entry file="file://$PROJECT_DIR$/app/slotsView/slotsController_tests.js" />
+    <entry file="file://$PROJECT_DIR$/app/doctorSlotsView/doctorSlotsView.html" />
+    <entry file="file://$PROJECT_DIR$/app/slotsView/slotsView.html" />
+    <entry file="file://$PROJECT_DIR$/app/doctorsView/doctorsView.html" />
+    <entry file="file://$PROJECT_DIR$/app/daysView/daysView.html" />
+    <entry file="file://$PROJECT_DIR$/app/bookingView/bookingView.html" />
+    <entry file="file://$PROJECT_DIR$/app/bookingView/bookingController.js" />
+    <entry file="file://$PROJECT_DIR$/app/daysView/daysController_tests.js" />
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrController_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#1454#1665#0" expanded="false" />
+            <element signature="e#1744#1975#0" expanded="false" />
+            <element signature="e#2046#2269#0" expanded="false" />
+            <element signature="e#2348#2579#0" expanded="false" />
+            <element signature="e#2653#2879#0" expanded="false" />
+            <element signature="e#2960#3193#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrLinesTextValidator.js" />
+    <entry file="file://$PROJECT_DIR$/app/daysView/daysController.js" />
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mainApp.js" />
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesToDigitsConverter_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrIsDigitZeroToNine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesValidator_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesToPackOfFourLines_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrIsDigitZeroToNine_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrLinesToDigitsConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrTextToNumbersConverter_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrLinesToPackOfFourLines.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrTextToNumbersConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrChecksumValidator_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webgl/first.html" />
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrDigitsToNumbersConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrDigitsToNumbersConverter_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="182" column="54" selection-start-line="182" selection-start-column="54" selection-end-line="182" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrDigitToNumberConverter_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="213" column="39" selection-start-line="213" selection-start-column="39" selection-end-line="213" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrDigitToNumberConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrLinesValidator_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrLinesValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bookingView/bookingController_tests.js" />
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrChecksumValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrNumbersChecksumValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrController_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="228" column="0" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+          <folding>
+            <element signature="e#1454#1665#0" expanded="false" />
+            <element signature="e#1744#1975#0" expanded="false" />
+            <element signature="e#2046#2269#0" expanded="false" />
+            <element signature="e#2348#2579#0" expanded="false" />
+            <element signature="e#2653#2879#0" expanded="false" />
+            <element signature="e#2960#3193#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/tests/ocrNumbersChecksumValidator_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Kata/OCR/ocrController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

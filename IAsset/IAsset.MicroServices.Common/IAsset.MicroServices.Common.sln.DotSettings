@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=CEA1F800381C6142A1DA553F411BC9B5/AbsolutePath/@EntryValue">C:\Development\IAsset\Selkie.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=CEA1F800381C6142A1DA553F411BC9B5/RelativePath/@EntryValue">..\..\Selkie.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=CEA1F800381C6142A1DA553F411BC9B5/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileCEA1F800381C6142A1DA553F411BC9B5/@KeyIndexDefined">True</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileCEA1F800381C6142A1DA553F411BC9B5/RelativePriority/@EntryValue">1</s:Double></wpf:ResourceDictionary>

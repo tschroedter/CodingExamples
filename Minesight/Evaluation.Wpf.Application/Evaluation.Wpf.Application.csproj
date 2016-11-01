@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A687C25E-2164-4213-BED1-8726ED133C64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Evaluation.Wpf.Application</RootNamespace>
+    <AssemblyName>Evaluation.Wpf.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.LoggingFacility.3.3.0\lib\net45\Castle.Facilities.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Services.Logging.NLogIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core-NLog.3.3.3\lib\net45\Castle.Services.Logging.NLogIntegration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EasyNetQ, Version=0.50.7.399, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EasyNetQ.0.50.7.399\lib\net40\EasyNetQ.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EasyNetQ.Management.Client, Version=0.47.12.38, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EasyNetQ.Management.Client.0.47.12.38\lib\net40\EasyNetQ.Management.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JetBrains.Annotations, Version=10.2.1.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.10.2.1\lib\net\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.3.6\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RabbitMQ.Client, Version=3.5.4.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <HintPath>..\packages\RabbitMQ.Client.3.5.4\lib\net40\RabbitMQ.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Selkie.EasyNetQ, Version=0.7.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selkie.EasyNetQ.0.7.15\lib\net45\Selkie.EasyNetQ.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Selkie.Windsor, Version=0.7.41.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selkie.Windsor.0.7.41\lib\net45\Selkie.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Common\ValidationRules\DoubleValidationRule.cs" />
+    <Compile Include="Common\ValueConverters\IntegerArrayToStringConverter.cs" />
+    <Compile Include="Common\ValidationRules\IntegerRangeValidationRule.cs" />
+    <Compile Include="Models\ClosestPointsFinderModel.cs" />
+    <Compile Include="Models\Interfaces\IClosestPointsFinderModel.cs" />
+    <Compile Include="Models\Interfaces\INumberOfPointsModel.cs" />
+    <Compile Include="Models\Interfaces\IShiftPointModel.cs" />
+    <Compile Include="Models\Interfaces\IQueryPointModel.cs" />
+    <Compile Include="Models\Messages\BrowseRequestMessage.cs" />
+    <Compile Include="Models\Messages\ClosestIdsCalculateMessage.cs" />
+    <Compile Include="Models\Messages\ClosestIdsChangedMessage.cs" />
+    <Compile Include="Models\Messages\ClosestIdsRequestMessage.cs" />
+    <Compile Include="Models\Messages\FilenameChangedMessage.cs" />
+    <Compile Include="Models\Messages\FilenameRequestMessage.cs" />
+    <Compile Include="Models\Messages\FilenameSetMessage.cs" />
+    <Compile Include="Models\Interfaces\IModel.cs" />
+    <Compile Include="Models\Interfaces\ISourceFileSelectorModel.cs" />
+    <Compile Include="Models\Messages\NumberOfPointsChangedMessage.cs" />
+    <Compile Include="Models\Messages\NumberOfPointsRequestMessage.cs" />
+    <Compile Include="Models\Messages\NumberOfPointsSetMessage.cs" />
+    <Compile Include="Models\Messages\QueryPointChangedMessage.cs" />
+    <Compile Include="Models\Messages\QueryPointRequestMessage.cs" />
+    <Compile Include="Models\Messages\QueryPointSetMessage.cs" />
+    <Compile Include="Models\Messages\ShiftPointChangedMessage.cs" />
+    <Compile Include="Models\Messages\ShiftPointRequestMessage.cs" />
+    <Compile Include="Models\Messages\ShiftPointSetMessage.cs" />
+    <Compile Include="Models\NumberOfPointsModel.cs" />
+    <Compile Include="Models\ShiftPointModel.cs" />
+    <Compile Include="Models\QueryPointModel.cs" />
+    <Compile Include="Models\SourceFileSelectorModel.cs" />
+    <Compile Include="Common\SettingsManager.cs" />
+    <Compile Include="UserControls\ClosestPointsFinder.xaml.cs">
+      <DependentUpon>ClosestPointsFinder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NumberOfPoints.xaml.cs">
+      <DependentUpon>NumberOfPoints.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PointEditor.xaml.cs">
+      <DependentUpon>PointEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SourceFileSelector.xaml.cs">
+      <DependentUpon>SourceFileSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\ClosestPointsFinderViewModel.cs" />
+    <Compile Include="ViewModels\Common\CommandManager.cs" />
+    <Compile Include="ViewModels\Common\DelegateCommand.cs" />
+    <Compile Include="ViewModels\Interfaces\IClosestPointsFinderViewModel.cs" />
+    <Compile Include="ViewModels\Interfaces\ICommandManager.cs" />
+    <Compile Include="ViewModels\Interfaces\IMainViewModel.cs" />
+    <Compile Include="ViewModels\Interfaces\INumberOfPointsViewModel.cs" />
+    <Compile Include="ViewModels\Interfaces\IPointViewModel.cs" />
+    <Compile Include="ViewModels\Interfaces\IQueryPointViewModel.cs" />
+    <Compile Include="Common\Interfaces\ISettingsManager.cs" />
+    <Compile Include="ViewModels\Interfaces\IShiftPointViewModel.cs" />
+    <Compile Include="ViewModels\Interfaces\ISourceFileSelectorViewModel.cs" />
+    <Compile Include="ViewModels\Interfaces\IViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\NumberOfPointsViewModel.cs" />
+    <Compile Include="ViewModels\QueryPointViewModel.cs" />
+    <Compile Include="ViewModels\Messages\ShowBrowseDialogMessage.cs" />
+    <Compile Include="ViewModels\ShiftPointViewModel.cs" />
+    <Compile Include="ViewModels\SourceFileSelectorViewModel.cs" />
+    <Compile Include="ViewModels\Common\ViewModel.cs" />
+    <Compile Include="View\Interfaces\IMainView.cs" />
+    <Compile Include="View\Interfaces\IView.cs" />
+    <Compile Include="View\Interfaces\IViewFactory.cs" />
+    <Compile Include="View\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windsor\Installer.cs" />
+    <Compile Include="Windsor\ViewActivatorFacility.cs" />
+    <Compile Include="Windsor\WindsorViewFactory.cs" />
+    <Compile Include="Windsor\WpfWindowActivator.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="UserControls\ClosestPointsFinder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\NumberOfPoints.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\PointEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\SourceFileSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Points.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Evaluation.Common\Evaluation.Common.csproj">
+      <Project>{d452b8d0-2be8-45ee-bb3f-49d860e892ff}</Project>
+      <Name>Evaluation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Evaluation.Interfaces\Evaluation.Interfaces.csproj">
+      <Project>{f7791dd8-6e7b-482b-8a47-0e0a951cd2fe}</Project>
+      <Name>Evaluation.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Evaluation\Evaluation.csproj">
+      <Project>{c98ddbf7-f86e-4d32-977c-cf68ff5f63fe}</Project>
+      <Name>Evaluation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataMinesweeper", "KataMinesweeper\KataMinesweeper.csproj", "{6178FDCD-3853-4F8C-9B6F-4B17543E9A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataMinesweeper.Interfaces", "KataMinesweeper.Interfaces\KataMinesweeper.Interfaces.csproj", "{BE4B8BB2-E1E5-4EC5-A5D0-15394FEB45DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataMinesweeper.Tests", "KataMinesweeper.Tests\KataMinesweeper.Tests.csproj", "{BC2C80AE-F264-4532-9425-0611DE1AF8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataMinesweeper.Console", "KataMinesweeper.Console\KataMinesweeper.Console.csproj", "{0622B804-112C-4002-9C03-BEA4DB4D4614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataMinesweeper.Integreation.Tests", "KataMinesweeper.Integreation.Tests\KataMinesweeper.Integreation.Tests.csproj", "{5404B292-A824-4D92-BC88-15F77BCDB568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6178FDCD-3853-4F8C-9B6F-4B17543E9A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6178FDCD-3853-4F8C-9B6F-4B17543E9A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6178FDCD-3853-4F8C-9B6F-4B17543E9A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6178FDCD-3853-4F8C-9B6F-4B17543E9A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4B8BB2-E1E5-4EC5-A5D0-15394FEB45DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4B8BB2-E1E5-4EC5-A5D0-15394FEB45DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4B8BB2-E1E5-4EC5-A5D0-15394FEB45DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4B8BB2-E1E5-4EC5-A5D0-15394FEB45DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2C80AE-F264-4532-9425-0611DE1AF8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2C80AE-F264-4532-9425-0611DE1AF8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2C80AE-F264-4532-9425-0611DE1AF8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2C80AE-F264-4532-9425-0611DE1AF8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0622B804-112C-4002-9C03-BEA4DB4D4614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0622B804-112C-4002-9C03-BEA4DB4D4614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0622B804-112C-4002-9C03-BEA4DB4D4614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0622B804-112C-4002-9C03-BEA4DB4D4614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5404B292-A824-4D92-BC88-15F77BCDB568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5404B292-A824-4D92-BC88-15F77BCDB568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5404B292-A824-4D92-BC88-15F77BCDB568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5404B292-A824-4D92-BC88-15F77BCDB568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer", "Importer\Importer.csproj", "{844E2050-8613-4CEF-8A07-B8E596B3D4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.Tests", "Importer.Tests\Importer.Tests.csproj", "{12EA9221-47D3-4206-8FBA-A7066B3D5BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.Interfaces", "Importer.Interfaces\Importer.Interfaces.csproj", "{6731F317-2257-4BCF-8CA9-A4874D0EF7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844E2050-8613-4CEF-8A07-B8E596B3D4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844E2050-8613-4CEF-8A07-B8E596B3D4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844E2050-8613-4CEF-8A07-B8E596B3D4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844E2050-8613-4CEF-8A07-B8E596B3D4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12EA9221-47D3-4206-8FBA-A7066B3D5BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EA9221-47D3-4206-8FBA-A7066B3D5BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EA9221-47D3-4206-8FBA-A7066B3D5BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EA9221-47D3-4206-8FBA-A7066B3D5BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6731F317-2257-4BCF-8CA9-A4874D0EF7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6731F317-2257-4BCF-8CA9-A4874D0EF7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6731F317-2257-4BCF-8CA9-A4874D0EF7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6731F317-2257-4BCF-8CA9-A4874D0EF7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
