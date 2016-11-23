@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="Agtrix.Wpf.Application.Views.FarmView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:cal="http://www.caliburnproject.org"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <StackPanel>
+        <!-- Farm Details -->
+        <StackPanel>
+            <Label Content="Farm Details"
+                   FontWeight="Bold" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0"
+                       Grid.Column="0"
+                       Content="Field Code" />
+
+                <TextBox x:Name="FieldsCode"
+                         Grid.Row="0"
+                         Grid.Column="1" />
+
+                <Label Grid.Row="1"
+                       Grid.Column="0"
+                       Content="Name" />
+
+                <TextBox x:Name="FarmName"
+                         Grid.Row="1"
+                         Grid.Column="1" />
+
+                <Label Grid.Row="2"
+                       Grid.Column="0"
+                       Content="Farm Type" />
+
+                <ComboBox x:Name="AvailableFarmTypes"
+                          Grid.Row="2"
+                          Grid.Column="1" />
+
+                <Label Grid.Row="3"
+                       Grid.Column="0"
+                       Content="Harvested" />
+
+                <xctk:DateTimeUpDown Value="{Binding Harvested}"
+                                     Format="Custom"
+                                     FormatString="dd/MM/yyyy HH:mm"
+                                     Grid.Row="3"
+                                     Grid.Column="1" />
+
+                <Label Grid.Row="4"
+                       Grid.Column="0"
+                       Content="Miller Name" />
+
+                <ComboBox x:Name="Millers"
+                          Grid.Row="4"
+                          Grid.Column="1"
+                          DisplayMemberPath="Name"
+                          SelectedValuePath="Id" />
+
+            </Grid>
+            <Button Content="Apply"
+                    cal:Message.Attach="Apply" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

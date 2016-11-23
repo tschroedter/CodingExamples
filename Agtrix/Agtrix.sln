@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agtrix.Wpf.Application", "Agtrix.Wpf.Application\Agtrix.Wpf.Application.csproj", "{ABB3CD21-BEFA-4B9F-8F27-37161801706E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agtrix.DataAccess", "Agtrix.DataAccess\Agtrix.DataAccess.csproj", "{B38D700C-3231-452C-9D72-A0DBD6C500F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agtrix.DataAccess.Tests", "Agtrix.DataAccess.Tests\Agtrix.DataAccess.Tests.csproj", "{F0FDE656-F44B-4EAE-BBD7-C909ACADD31F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F792012E-F5E5-4EDA-AD7A-F48250D94C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agtrix.DataAccess.Interfaces", "Agtrix.DataAccess.Interfaces\Agtrix.DataAccess.Interfaces.csproj", "{5D8A9A68-EAA8-4A26-9D04-0559345E4781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agtrix.Common.Tests", "Agtrix.Common.Tests\Agtrix.Common.Tests.csproj", "{B99ECFC2-9D84-4BBC-88EA-0C04AB3D667C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{38AA2BE9-27F6-4C6E-8264-16DF64CFCC72}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB3CD21-BEFA-4B9F-8F27-37161801706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB3CD21-BEFA-4B9F-8F27-37161801706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB3CD21-BEFA-4B9F-8F27-37161801706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB3CD21-BEFA-4B9F-8F27-37161801706E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38D700C-3231-452C-9D72-A0DBD6C500F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38D700C-3231-452C-9D72-A0DBD6C500F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38D700C-3231-452C-9D72-A0DBD6C500F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38D700C-3231-452C-9D72-A0DBD6C500F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FDE656-F44B-4EAE-BBD7-C909ACADD31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FDE656-F44B-4EAE-BBD7-C909ACADD31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FDE656-F44B-4EAE-BBD7-C909ACADD31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FDE656-F44B-4EAE-BBD7-C909ACADD31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8A9A68-EAA8-4A26-9D04-0559345E4781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8A9A68-EAA8-4A26-9D04-0559345E4781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8A9A68-EAA8-4A26-9D04-0559345E4781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8A9A68-EAA8-4A26-9D04-0559345E4781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99ECFC2-9D84-4BBC-88EA-0C04AB3D667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99ECFC2-9D84-4BBC-88EA-0C04AB3D667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99ECFC2-9D84-4BBC-88EA-0C04AB3D667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99ECFC2-9D84-4BBC-88EA-0C04AB3D667C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0FDE656-F44B-4EAE-BBD7-C909ACADD31F} = {F792012E-F5E5-4EDA-AD7A-F48250D94C44}
+		{B99ECFC2-9D84-4BBC-88EA-0C04AB3D667C} = {F792012E-F5E5-4EDA-AD7A-F48250D94C44}
+	EndGlobalSection
+EndGlobal

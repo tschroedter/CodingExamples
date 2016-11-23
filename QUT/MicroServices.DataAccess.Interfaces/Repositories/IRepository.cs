@@ -10,6 +10,5 @@ namespace MicroServices.DataAccess.Interfaces.Repositories
         T FindById(int id);
         void Save(T instance);
         void Remove(T entity);
-        void Save();
     }
 }

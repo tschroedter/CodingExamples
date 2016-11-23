@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Agtrix.Wpf.Application.Views.FilterFarmsByFarmNameView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:cal="http://www.caliburnproject.org"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <StackPanel>
+        <Label Content="Filter By Farm Name"
+               FontWeight="Bold" />
+        <TextBox x:Name="SearchStringFilterByFarmName" />
+        <UniformGrid>
+            <Button Content="Filter">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <cal:ActionMessage MethodName="Filter">
+                            <cal:Parameter Value="{Binding ElementName=SearchStringFilterByFarmName, Path=Text}" />
+                        </cal:ActionMessage>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="Reset"
+                    cal:Message.Attach="Reset" />
+        </UniformGrid>
+    </StackPanel>
+
+</UserControl>
