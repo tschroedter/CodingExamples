@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=A4ECB0D145A61B40B1A1CFBB4CBA2051/AbsolutePath/@EntryValue">C:\Development\C++\Cpp.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=A4ECB0D145A61B40B1A1CFBB4CBA2051/RelativePath/@EntryValue">..\..\..\Cpp.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=A4ECB0D145A61B40B1A1CFBB4CBA2051/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileA4ECB0D145A61B40B1A1CFBB4CBA2051/@KeyIndexDefined">True</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileA4ECB0D145A61B40B1A1CFBB4CBA2051/RelativePriority/@EntryValue">1</s:Double></wpf:ResourceDictionary>
