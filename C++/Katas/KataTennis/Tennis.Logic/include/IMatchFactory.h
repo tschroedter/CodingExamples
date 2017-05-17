@@ -9,9 +9,15 @@ namespace Tennis
         class IMatchFactory
         {
         public:
+<<<<<<< HEAD
             virtual ~IMatchFactory() = default;
 
             virtual std::unique_ptr<IMatch> create() = 0;
+=======
+            virtual ~IMatchFactory () = default;
+
+            virtual std::unique_ptr<IMatch> create () = 0;
+>>>>>>> Update from private repository
         };
     }
 }

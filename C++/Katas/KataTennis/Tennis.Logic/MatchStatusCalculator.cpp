@@ -5,9 +5,20 @@ namespace Tennis
 {
     namespace Logic
     {
+<<<<<<< HEAD
         const MatchStatus MatchStatusCalculator::get_status () const
         {
             if ( m_sets->get_length() == 0 )
+=======
+        void MatchStatusCalculator::initialize ( ISets_Ptr sets )
+        {
+            m_sets = sets;
+        }
+
+        const MatchStatus MatchStatusCalculator::get_status () const
+        {
+            if ( m_sets->get_number_of_sets() == 0 )
+>>>>>>> Update from private repository
             {
                 return MatchStatus_NotStarted;
             }
@@ -34,5 +45,19 @@ namespace Tennis
 
             return MatchStatus_InProgress;
         }
+<<<<<<< HEAD
+=======
+
+        void MatchStatusCalculator::set_required_sets_to_win ( 
+            RequiredSetsToWin required_sets_to_win )
+        {
+            m_required_sets_to_win = required_sets_to_win;
+        }
+
+        const RequiredSetsToWin MatchStatusCalculator::get_required_sets_to_win ()
+        {
+            return m_required_sets_to_win;
+        }
+>>>>>>> Update from private repository
     };
 };

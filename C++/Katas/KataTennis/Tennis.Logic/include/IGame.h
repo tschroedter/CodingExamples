@@ -2,6 +2,10 @@
 #include "Player.h"
 #include "PossibleScores.h"
 #include "GameStatus.h"
+<<<<<<< HEAD
+=======
+#include <memory>
+>>>>>>> Update from private repository
 
 namespace Tennis
 {
@@ -17,5 +21,10 @@ namespace Tennis
             virtual Scores get_score_for_player ( const Player player ) const = 0;
             virtual std::string get_score_for_player_as_string ( const Player player ) const = 0;
         };
+<<<<<<< HEAD
+=======
+
+        typedef std::shared_ptr<IGame> IGame_Ptr;
+>>>>>>> Update from private repository
     };
 };

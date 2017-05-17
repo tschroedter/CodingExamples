@@ -1,11 +1,16 @@
 #pragma once
 
 #include "TieBreak.h"
+<<<<<<< HEAD
+=======
+#include "ITieBreakFactory.h"
+>>>>>>> Update from private repository
 
 namespace Tennis
 {
     namespace Logic
     {
+<<<<<<< HEAD
         class TieBreakFactory // todo interface
         {
         private:
@@ -19,6 +24,18 @@ namespace Tennis
 
             ITieBreak* create (); // todo release or unique_ptr
             static void release ( ITieBreak* tie_break );  // todo in se middle of doing stuff
+=======
+        class TieBreakFactory
+                : public ITieBreakFactory
+        {
+        public:
+            TieBreakFactory ()
+            {
+            }
+
+            ITieBreak* create () override;
+            void release ( ITieBreak* tie_break ) override;
+>>>>>>> Update from private repository
         };
     }
 }

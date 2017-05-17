@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // todo this is an ugly test class 
+=======
+>>>>>>> Update from private repository
 //
 // Tennis.Match.cpp : Defines the entry point for the console application.
 //
@@ -6,6 +9,7 @@
 #include "stdafx.h"
 #include "MemoryInfo.h"
 #include "MemoryLeakTest.h"
+<<<<<<< HEAD
 #include "InputPlayerNames.h"
 #include "IGamesCounter.h"
 #include "GamesCounter.h"
@@ -14,16 +18,55 @@
 #include "MatchStatusToStringConverter.h"
 
 void run_memory_leak_test ()
+=======
+#include "Logger.h"
+#include "PlayMatch.h"
+#include "BaseException.h"
+
+#include "Hypodermic/ContainerBuilder.h"
+#include "IOCContainerBuilder.h"
+#include "IGameScore.h"
+#include "IPlayerNameManager.h"
+#include "ScoreBoard.h"
+
+void memory_leak_test ()
+>>>>>>> Update from private repository
 {
     MemoryInfo mi {};
     mi.snapshot();
 
     std::cout << "Running memory leak test..." << "\n";
 
+<<<<<<< HEAD
     int i = 0;
     while ( i < 1000 )
     {
         Tennis::Match::MemoryLeakTest test {};
+=======
+    using namespace Tennis::Match;
+    IOCContainerBuilder builder;
+    Container_Ptr container = builder.build();
+
+    int i = 0;
+    while ( i < 1000 )
+    {
+        using namespace Tennis::Logic;
+
+        IPlayerNameManager_Ptr player_name_manager = container->resolve<IPlayerNameManager>();
+
+        IMatch_Ptr match = container->resolve<IMatch>();
+        match->initialize();
+
+        IScoreBoard_Ptr score_board = container->resolve<IScoreBoard>();
+        score_board->initialize(match->get_sets(),
+            player_name_manager);
+
+        MemoryLeakTest test
+        { 
+            match,
+            score_board 
+        };
+>>>>>>> Update from private repository
 
         test.run();
         i++;
@@ -34,6 +77,7 @@ void run_memory_leak_test ()
     mi.print_delta();
 }
 
+<<<<<<< HEAD
 int get_int_1_or_2 ()
 {
     int choice;
@@ -113,4 +157,44 @@ int main ()
     run_match();
 
     return 0;
+=======
+void play_match ()
+{
+    using namespace Tennis::Match;
+    IOCContainerBuilder builder;
+    Container_Ptr container = builder.build();
+    PlayMatch play_match { container };
+
+    play_match.run();
+}
+
+int main ()
+{
+    Tennis::Logic::Logger logger { std::cout };
+
+    int return_value = 0;
+
+    try
+    {
+        // memory_leak_test();
+        play_match();
+    }
+    catch ( Tennis::Logic::BaseException exception )
+    {
+        logger.error (
+                      "Abnormal termination: "
+                      + exception.get_error()
+                      + "\n" );
+
+        return_value = 1;
+    }
+    catch ( ... )
+    {
+        logger.error ( "Abnormal termination!!!\n" );
+
+        return_value = 1;
+    }
+
+    return return_value;
+>>>>>>> Update from private repository
 }

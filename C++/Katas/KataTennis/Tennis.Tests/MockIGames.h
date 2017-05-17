@@ -3,12 +3,16 @@
 #include <gmock/gmock-generated-function-mockers.h>
 #include "IGame.h"
 #include "IGames.h"
+<<<<<<< HEAD
 #include "MockIGame.h"
+=======
+>>>>>>> Update from private repository
 
 class MockIGames
         : public Tennis::Logic::IGames
 {
 public:
+<<<<<<< HEAD
     size_t mock_get_length_value = -1;
 
     std::vector<Tennis::Logic::IGame*> sets;
@@ -33,5 +37,16 @@ public:
 
         return mock_get_length_value;
     }
+=======
+    // ReSharper disable CppOverridingFunctionWithoutOverrideSpecifier
+    MOCK_METHOD0(create_new_game,
+        Tennis::Logic::IGame_Ptr());
+    MOCK_CONST_METHOD0(get_current_game,
+        Tennis::Logic::IGame_Ptr());
+    MOCK_CONST_METHOD1(get_game_at_index,
+        Tennis::Logic::IGame_Ptr(const size_t index));
+    MOCK_CONST_METHOD0(get_number_of_games,
+        size_t());
+>>>>>>> Update from private repository
     // ReSharper restore CppOverridingFunctionWithoutOverrideSpecifier
 };

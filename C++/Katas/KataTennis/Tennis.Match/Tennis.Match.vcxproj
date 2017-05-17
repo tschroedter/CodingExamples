@@ -71,8 +71,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+<<<<<<< HEAD
     <IncludePath>C:\Development\C++\Katas\KataTennis\Tennis.Logic\include;C:\Development\C++\Katas\KataTennis\Tennis.Logic;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Development\C++\Katas\KataTennis\Tennis.Logic\Debug;$(LibraryPath)</LibraryPath>
+=======
+    <IncludePath>C:\Development\C++\Katas\boost_1_63_0;C:\Development\C++\Katas\Hypodermic-master;C:\Development\C++\Katas\KataTennis\Tennis.Logic\include;C:\Development\C++\Katas\KataTennis\Tennis.Logic;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Development\C++\Katas\boost_1_63_0\stage\lib;C:\Development\C++\Katas\KataTennis\Tennis.Logic\Debug;$(LibraryPath)</LibraryPath>
+>>>>>>> Update from private repository
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -89,13 +94,25 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+=======
+      <SDLCheck>false</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
+>>>>>>> Update from private repository
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+<<<<<<< HEAD
+=======
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+>>>>>>> Update from private repository
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -148,13 +165,27 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="MemoryInfo.h" />
     <ClInclude Include="MemoryLeakTest.h" />
+=======
+    <ClInclude Include="IIOCContainerBuilder.h" />
+    <ClInclude Include="IOCContainerBuilder.h" />
+    <ClInclude Include="MemoryInfo.h" />
+    <ClInclude Include="MemoryLeakTest.h" />
+    <ClInclude Include="PlayMatch.h" />
+>>>>>>> Update from private repository
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="MemoryLeakTest.cpp" />
+=======
+    <ClCompile Include="IOCContainerBuilder.cpp" />
+    <ClCompile Include="MemoryLeakTest.cpp" />
+    <ClCompile Include="PlayMatch.cpp" />
+>>>>>>> Update from private repository
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

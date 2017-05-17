@@ -1,17 +1,30 @@
 #include "stdafx.h"
 #include <memory>
 #include "IMatch.h"
+<<<<<<< HEAD
 #include "MatchFactory.h"
 #include "MemoryLeakTest.h"
 #include "ScoreBoard.h"
 #include "MatchStatusToStringConverter.h"
+=======
+#include "MemoryLeakTest.h"
+#include "ScoreBoard.h"
+#include "MatchStatusToStringConverter.h"
+#include <iostream>
+#include "PlayerNameManager.h"
+#include "ITieBreakWinnerCalculator.h"
+>>>>>>> Update from private repository
 
 namespace Tennis
 {
     namespace Match
     {
         void MemoryLeakTest::create_games_won (
+<<<<<<< HEAD
             Tennis::Logic::IMatch* match,
+=======
+            Logic::IMatch_Ptr match,
+>>>>>>> Update from private repository
             Logic::Player player,
             size_t games_scored_by_player )
         {
@@ -25,7 +38,11 @@ namespace Tennis
         }
 
         void MemoryLeakTest::create_set_with_score (
+<<<<<<< HEAD
             Tennis::Logic::IMatch* match,
+=======
+            Logic::IMatch_Ptr match,
+>>>>>>> Update from private repository
             size_t games_scored_by_player_one,
             size_t games_scored_by_player_two )
         {
@@ -57,6 +74,7 @@ namespace Tennis
             }
         }
 
+<<<<<<< HEAD
         void MemoryLeakTest::player_on_wins_tie_break ( Tennis::Logic::IMatch* match )
         {
             match->won_point ( Tennis::Logic::One );
@@ -74,6 +92,25 @@ namespace Tennis
         void MemoryLeakTest::print_status ( Tennis::Logic::IMatch* match )
         {
             using namespace Tennis::Logic;
+=======
+        void MemoryLeakTest::player_on_wins_tie_break ( Logic::IMatch_Ptr match )
+        {
+            match->won_point ( Logic::One );
+            match->won_point ( Logic::Two );
+            match->won_point ( Logic::One );
+            match->won_point ( Logic::Two );
+            match->won_point ( Logic::Two );
+            match->won_point ( Logic::One );
+            match->won_point ( Logic::One );
+            match->won_point ( Logic::One );
+            match->won_point ( Logic::One );
+            match->won_point ( Logic::One );
+        }
+
+        void MemoryLeakTest::print_status ( Logic::IMatch_Ptr match )
+        {
+            using namespace Logic;
+>>>>>>> Update from private repository
 
             MatchStatus match_status = match->get_status();
 
@@ -84,6 +121,7 @@ namespace Tennis
 
         void MemoryLeakTest::run () const
         {
+<<<<<<< HEAD
             Logic::MatchFactory factory {};
 
             std::unique_ptr<Logic::IMatch> match = factory.create();
@@ -125,6 +163,29 @@ namespace Tennis
             create_set_with_score ( match.get(), 4, 6 );
             score_board.print ( std::cout );
             print_status ( match.get() );
+=======
+            using namespace Logic;
+
+            // first set 6:6
+            create_set_with_score ( m_match, 6, 6 );
+            m_score_board->print ( std::cout );
+            print_status ( m_match );
+
+            // first set - tiebreak points
+            player_on_wins_tie_break ( m_match );
+            m_score_board->print ( std::cout );
+            print_status ( m_match );
+
+            // second set 4:6
+            create_set_with_score ( m_match, 4, 6 );
+            m_score_board->print ( std::cout );
+            print_status ( m_match );
+
+            // third set 4:6
+            create_set_with_score ( m_match, 4, 6 );
+            m_score_board->print ( std::cout );
+            print_status ( m_match );
+>>>>>>> Update from private repository
         }
     }
 }

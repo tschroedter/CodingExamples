@@ -71,8 +71,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+<<<<<<< HEAD
     <IncludePath>C:\Development\C++\Katas\KataTennis\Tennis.Logic;C:\Development\C++\Katas\KataTennis\Tennis.Logic\include;C:\Development\C++\Katas\googletest-master\googlemock\include;C:\Development\C++\Katas\googletest-master\googlemock;C:\Development\C++\Katas\googletest-master\googletest\include;C:\Development\C++\Katas\googletest-master\googletest;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Development\C++\Katas\KataTennis\Tennis.Logic\Debug;C:\Development\C++\Katas\googletest-master\googlemock\msvc\2015\Debug;$(LibraryPath)</LibraryPath>
+=======
+    <IncludePath>C:\Development\C++\Katas\Hypodermic-master;C:\Development\C++\Katas\boost_1_63_0;C:\Development\C++\Katas\KataTennis\Tennis.Logic;C:\Development\C++\Katas\KataTennis\Tennis.Logic\include;C:\Development\C++\Katas\googletest-master\googlemock\include;C:\Development\C++\Katas\googletest-master\googlemock;C:\Development\C++\Katas\googletest-master\googletest\include;C:\Development\C++\Katas\googletest-master\googletest;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Development\C++\Katas\boost_1_63_0\stage\lib;C:\Development\C++\Katas\KataTennis\Tennis.Logic\Debug;C:\Development\C++\Katas\googletest-master\googlemock\msvc\2015\Debug;$(LibraryPath)</LibraryPath>
+>>>>>>> Update from private repository
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -91,12 +96,22 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+<<<<<<< HEAD
+=======
+      <BrowseInformation>true</BrowseInformation>
+>>>>>>> Update from private repository
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>Tennis.Logic.lib;gmock_main.lib;gmock.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+<<<<<<< HEAD
+=======
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+>>>>>>> Update from private repository
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -151,39 +166,78 @@
   <ItemGroup>
     <ClInclude Include="MemoryInfo.h" />
     <ClInclude Include="MockIAwardPoints.h" />
+<<<<<<< HEAD
     <ClInclude Include="MockIGame.h" />
     <ClInclude Include="MockIGames.h" />
     <ClInclude Include="MockIGameScore.h" />
     <ClInclude Include="MockIGamesCounterr.h" />
+=======
+    <ClInclude Include="MockICountPlayerGames.h" />
+    <ClInclude Include="MockICurrentPlayerScoreCalculator.h" />
+    <ClInclude Include="MockIGame.h" />
+    <ClInclude Include="MockIGames.h" />
+    <ClInclude Include="MockIGameScore.h" />
+    <ClInclude Include="MockIGamesCounter.h" />
+>>>>>>> Update from private repository
     <ClInclude Include="MockILogger.h" />
     <ClInclude Include="MockIMatchCounter.h" />
     <ClInclude Include="MockIMatchStatusCalculator.h" />
     <ClInclude Include="MockIPlayerNameManager.h" />
+<<<<<<< HEAD
     <ClInclude Include="MockISet.h" />
     <ClInclude Include="MockISetFactory.h" />
+=======
+    <ClInclude Include="MockIScoresForPlayerCalculator.h" />
+    <ClInclude Include="MockISet.h" />
+>>>>>>> Update from private repository
     <ClInclude Include="MockISets.h" />
     <ClInclude Include="MockISetStatusCalculator.h" />
     <ClInclude Include="MockITieBreak.h" />
     <ClInclude Include="MockISetWonPointHandler.h" />
     <ClInclude Include="MockIMatchWonPointHandler.h" />
+<<<<<<< HEAD
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="MatchWonPointHandler.Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AwardPoints.Tests.cpp" />
+=======
+    <ClInclude Include="MockITieBreakWinnerCalculator.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AwardPoints.Tests.cpp" />
+    <ClCompile Include="BaseException.Tests.cpp" />
+    <ClCompile Include="Container.Tests.cpp" />
+    <ClCompile Include="CountPlayerGames.Tests.cpp" />
+    <ClCompile Include="CurrentPlayerScoreCalculator.Tests.cpp" />
+>>>>>>> Update from private repository
     <ClCompile Include="Game.Tests.cpp" />
     <ClCompile Include="Games.Tests.cpp" />
     <ClCompile Include="GameScore.Tests.cpp" />
     <ClCompile Include="GamesCounter.Tests.cpp" />
     <ClCompile Include="GameStatus.Tests.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="InputPlayerNames.Tests.cpp" />
+>>>>>>> Update from private repository
     <ClCompile Include="Logger.Tests.cpp" />
     <ClCompile Include="Match.Tests.cpp" />
     <ClCompile Include="MatchCounter.Tests.cpp" />
     <ClCompile Include="MatchStatusCalculator.Tests.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="PlayerNameManager.Tests.cpp" />
     <ClCompile Include="PossibleScores.Tests.cpp" />
     <ClCompile Include="ScoreBoard.Tests.cpp" />
+=======
+    <ClCompile Include="MatchStatusToStringConverter.Tests.cpp" />
+    <ClCompile Include="PlayerNameManager.Tests.cpp" />
+    <ClCompile Include="PossibleScores.Tests.cpp" />
+    <ClCompile Include="ScoreBoard.Tests.cpp" />
+    <ClCompile Include="ScoresForPlayerCalculator.Tests.cpp" />
+>>>>>>> Update from private repository
     <ClCompile Include="Set.Tests.cpp" />
     <ClCompile Include="Sets.Tests.cpp" />
     <ClCompile Include="SetStatusCalculator.Tests.cpp" />
@@ -193,11 +247,19 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Tennis.Tests.cpp" />
+=======
+    <ClCompile Include="MatchWonPointHandler.Tests.cpp" />
+>>>>>>> Update from private repository
     <ClCompile Include="TieBreak.Tests.cpp" />
     <ClCompile Include="TieBreakScore.Tests.cpp" />
     <ClCompile Include="TieBreakStatusCalculator.Tests.cpp" />
     <ClCompile Include="SetWonPointHandler.Tests.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="TieBreakWinnerCalculator.Tests.cpp" />
+>>>>>>> Update from private repository
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tennis.Logic\Tennis.Logic.vcxproj">

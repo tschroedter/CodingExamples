@@ -184,6 +184,11 @@ UpgradeLog*.htm
 FakesAssemblies/
 *.bak
 NuGet.Selkie.Services.Lines/lib/
+<<<<<<< HEAD
 
 *.VC.db
 *.gitattributes
+=======
+C++/Katas/KataRomanCalculator/KataRomanCalculator.VC.db
+*.db
+>>>>>>> Update from private repository

@@ -1,6 +1,9 @@
 #pragma once
 
+<<<<<<< HEAD
 #include "IGamesCounter.h"
+=======
+>>>>>>> Update from private repository
 #include "Player.h"
 #include "IGames.h"
 
@@ -17,7 +20,14 @@ namespace Tennis
 
             virtual int8_t count_games_for_player (
                 const Player player,
+<<<<<<< HEAD
                 const IGames* games ) = 0;
         };
+=======
+                const IGames_Ptr games ) = 0;
+        };
+
+        typedef std::shared_ptr<IGamesCounter> IGamesCounter_Ptr;
+>>>>>>> Update from private repository
     };
 };

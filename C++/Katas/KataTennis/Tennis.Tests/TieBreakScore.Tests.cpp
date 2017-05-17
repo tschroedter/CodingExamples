@@ -44,7 +44,11 @@ TEST(TieBreakScore, won_point_increases_score_by_one)
     TieBreakScore sut {};
 
     // Act
+<<<<<<< HEAD
     sut.won_point(); // todo rename method won_point
+=======
+    sut.won_point();
+>>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(expected, sut.get_score());

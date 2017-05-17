@@ -7,7 +7,11 @@ namespace Tennis
     {
         ITieBreak* TieBreakFactory::create ()
         {
+<<<<<<< HEAD
             ITieBreak* tie_break = new TieBreak ( std::move ( m_logger ) ); // todo should be shared
+=======
+            ITieBreak* tie_break = new TieBreak ();
+>>>>>>> Update from private repository
 
             return tie_break;
         }

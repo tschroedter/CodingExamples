@@ -65,3 +65,27 @@ TEST(Logger, info_writes_message_to_ostream)
 
     EXPECT_EQ("INFO: Test\n", actual);
 }
+<<<<<<< HEAD
+=======
+
+TEST(Logger, warning_writes_message_to_ostream)
+{
+    using namespace Tennis::Logic;
+
+    // Arrange
+    std::stringstream ostream;
+
+    GameScore score_player_one {};
+    GameScore score_player_two {};
+
+    Logger sut { ostream };
+
+    // Act
+    sut.warning ( "Test" );
+
+    // Assert
+    std::string actual = ostream.str();
+
+    EXPECT_EQ("WARNING: Test\n", actual);
+}
+>>>>>>> Update from private repository

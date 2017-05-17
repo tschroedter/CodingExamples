@@ -39,7 +39,11 @@ namespace Tennis
             const ITieBreakScore* score_one,
             const ITieBreakScore* score_two )
         {
+<<<<<<< HEAD
             if ( has_status_NotStarted ( score_one, score_two ) ) // todo looks like a pattern
+=======
+            if ( has_status_NotStarted ( score_one, score_two ) )
+>>>>>>> Update from private repository
             {
                 return TieBreakStatus_NotStarted;
             }

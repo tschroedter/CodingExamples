@@ -6,17 +6,30 @@ namespace Tennis
     namespace Logic
     {
         bool GameStatusCalculator::is_player_one_winner (
+<<<<<<< HEAD
             Scores player_one,
             Scores player_two )
         {
             if ( Scores::AdvantageWon == player_one )
+=======
+            const Scores player_one,
+            const Scores player_two )
+        {
+            if ( AdvantageWon == player_one )
+>>>>>>> Update from private repository
             {
                 return true;
             }
 
+<<<<<<< HEAD
             if ( Scores::Advantage == player_one )
             {
                 if ( Scores::Thirty >= player_two )
+=======
+            if ( Advantage == player_one )
+            {
+                if ( Thirty >= player_two )
+>>>>>>> Update from private repository
                 {
                     return true;
                 }
@@ -26,8 +39,13 @@ namespace Tennis
         }
 
         bool GameStatusCalculator::has_player_one_won (
+<<<<<<< HEAD
             Scores player_one,
             Scores player_two )
+=======
+            const Scores player_one,
+            const Scores player_two )
+>>>>>>> Update from private repository
         {
             return is_player_one_winner (
                                          player_one,
@@ -35,8 +53,13 @@ namespace Tennis
         }
 
         bool GameStatusCalculator::has_player_two_won (
+<<<<<<< HEAD
             Scores player_one,
             Scores player_two )
+=======
+            const Scores player_one,
+            const Scores player_two )
+>>>>>>> Update from private repository
         {
             return is_player_one_winner (
                                          player_two,
@@ -44,8 +67,13 @@ namespace Tennis
         }
 
         GameStatus GameStatusCalculator::calculate (
+<<<<<<< HEAD
             Scores score_one,
             Scores score_two )
+=======
+            const Scores score_one,
+            const Scores score_two )
+>>>>>>> Update from private repository
         {
             if ( is_player_one_winner (
                                        score_one,

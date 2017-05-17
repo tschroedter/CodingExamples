@@ -2,6 +2,10 @@
 #include "include/AwardPoints.h"
 #include "include/IGameScore.h"
 #include <string>
+<<<<<<< HEAD
+=======
+#include "include/PlayerException.h"
+>>>>>>> Update from private repository
 
 namespace Tennis
 {
@@ -29,8 +33,12 @@ namespace Tennis
                     }
                     break;
                 default :
+<<<<<<< HEAD
                     m_logger->error ( "Unknown Player type: " + std::to_string ( player ) );
                     break;
+=======
+                    throw PlayerException ( "Unknown Player type: " + std::to_string ( player ) );
+>>>>>>> Update from private repository
             }
 
             switch ( player )
@@ -44,8 +52,12 @@ namespace Tennis
                     break;
 
                 default :
+<<<<<<< HEAD
                     m_logger->error ( "Unknown Player type: " + std::to_string ( player ) ); // todo exceptions
                     break;
+=======
+                    throw PlayerException ( "Unknown Player type: " + std::to_string ( player ) );
+>>>>>>> Update from private repository
             }
         }
     };

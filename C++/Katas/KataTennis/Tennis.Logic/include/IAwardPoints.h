@@ -1,5 +1,9 @@
 #pragma once
 #include "Player.h"
+<<<<<<< HEAD
+=======
+#include <memory>
+>>>>>>> Update from private repository
 
 namespace Tennis
 {
@@ -18,5 +22,10 @@ namespace Tennis
                 IGameScore* scorePlayerOne,
                 IGameScore* scorePlayerTwo ) = 0;
         };
+<<<<<<< HEAD
+=======
+
+        typedef std::shared_ptr<IAwardPoints> IAwardPoints_Ptr;
+>>>>>>> Update from private repository
     };
 };

@@ -3,6 +3,7 @@
 #pragma once
 #include <memory>
 #include "IMatch.h"
+<<<<<<< HEAD
 #include "MatchStatusCalculator.h"
 #include "MatchWonPointHandler.h"
 #include "MatchCounter.h"
@@ -10,12 +11,15 @@
 #include <iostream>
 #include "Logger.h"
 #include "Match.h"
+=======
+>>>>>>> Update from private repository
 #include "IMatchFactory.h"
 
 namespace Tennis
 {
     namespace Logic
     {
+<<<<<<< HEAD
         class MatchFactory  // todo testing
             : public IMatchFactory
         {
@@ -76,6 +80,21 @@ namespace Tennis
 
                 return p_match;
             }
+=======
+        class MatchFactory
+                : public IMatchFactory
+        {
+        public:
+            MatchFactory ()
+            {
+            }
+
+            ~MatchFactory ()
+            {
+            }
+
+            std::unique_ptr<Tennis::Logic::IMatch> create () override;
+>>>>>>> Update from private repository
         };
     }
 }
