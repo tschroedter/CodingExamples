@@ -1,23 +1,11 @@
 #pragma once
 
-<<<<<<< HEAD
-#include "Game.h"
-=======
 #include <iostream>
->>>>>>> Update from private repository
 
 namespace Tennis
 {
     namespace Logic
     {
-<<<<<<< HEAD
-        class InputPlayerNames // todo testing
-        {
-        private:
-            static std::string getString ();
-        public:
-            static std::string getPlayerName ( std::string text = "Player name? " );
-=======
         class InputPlayerNames
         {
         private:
@@ -34,7 +22,6 @@ namespace Tennis
             }
 
             std::string get_player_name ( std::string text = "Player name? " ) const;
->>>>>>> Update from private repository
         };
     };
 };

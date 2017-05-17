@@ -1,12 +1,7 @@
 #pragma once
 
-<<<<<<< HEAD
-#pragma once
-#include "Games.h"
-=======
 #include <string>
 #include <memory>
->>>>>>> Update from private repository
 
 namespace Tennis
 {
@@ -21,10 +16,7 @@ namespace Tennis
             virtual void won_point () = 0;
             virtual uint8_t get_score () const = 0;
         };
-<<<<<<< HEAD
-=======
 
         typedef std::shared_ptr<ITieBreakScore> ITieBreakScore_Ptr;
->>>>>>> Update from private repository
     };
 };

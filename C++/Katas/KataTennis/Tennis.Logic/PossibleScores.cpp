@@ -27,11 +27,6 @@ namespace Tennis
             {
                 m_current = static_cast<Scores> ( m_current + 1 );
             }
-<<<<<<< HEAD
-
-            // todo error ?
-=======
->>>>>>> Update from private repository
         }
 
         void PossibleScores::previous_score ()
@@ -49,10 +44,6 @@ namespace Tennis
                     m_current = Forty;
                     break;
                 default :
-<<<<<<< HEAD
-                    // todo error ?
-=======
->>>>>>> Update from private repository
                     break;
             }
         }

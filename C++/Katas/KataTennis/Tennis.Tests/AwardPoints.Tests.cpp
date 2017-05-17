@@ -4,16 +4,6 @@
 #include "MockILogger.h"
 #include "Scores.h"
 #include "GameScore.h"
-<<<<<<< HEAD
-
-std::unique_ptr<Tennis::Logic::AwardPoints> create_sut () // todo return unique
-{
-    using namespace Tennis::Logic;
-
-    std::unique_ptr<ILogger> logger = std::make_unique<MockILogger>();
-
-    std::unique_ptr<AwardPoints> sut = std::make_unique<AwardPoints> ( std::move ( logger ) );
-=======
 #include <memory>
 
 std::unique_ptr<Tennis::Logic::AwardPoints> create_sut ()
@@ -21,7 +11,6 @@ std::unique_ptr<Tennis::Logic::AwardPoints> create_sut ()
     using namespace Tennis::Logic;
 
     std::unique_ptr<AwardPoints> sut = std::make_unique<AwardPoints>();
->>>>>>> Update from private repository
 
     return sut;
 }
@@ -35,11 +24,7 @@ TEST(AwardPoints, award_point_returns_15_to_Love_for_player_one_scores_at_Love_a
     // Arrange
     GameScore score_player_one {};
     GameScore score_player_two {};
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -58,11 +43,7 @@ TEST(AwardPoints, award_point_returns_30_to_Love_for_player_one_scores_at_15_to_
     // Arrange
     GameScore score_player_one { Fifteen };
     GameScore score_player_two {};
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -81,11 +62,7 @@ TEST(AwardPoints, award_point_returns_40_to_Love_for_player_one_scores_at_30_to_
     // Arrange
     GameScore score_player_one { Thirty };
     GameScore score_player_two {};
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -104,11 +81,7 @@ TEST(AwardPoints, award_point_returns_Advantage_to_Love_for_player_one_scores_at
     // Arrange
     GameScore score_player_one { Forty };
     GameScore score_player_two {};
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -127,11 +100,7 @@ TEST(AwardPoints, award_point_returns_AdvantageWon_to_Love_for_player_one_scores
     // Arrange
     GameScore score_player_one { Advantage };
     GameScore score_player_two {};
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -150,11 +119,7 @@ TEST(AwardPoints, award_point_returns_Advantage_to_Forty_for_player_one_scores_a
     // Arrange
     GameScore score_player_one { Forty };
     GameScore score_player_two { Forty };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -173,11 +138,7 @@ TEST(AwardPoints, award_point_returns_Advantage_Won_to_Forty_for_player_one_scor
     // Arrange
     GameScore score_player_one { Advantage };
     GameScore score_player_two { Forty };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -198,11 +159,7 @@ TEST(AwardPoints, award_point_returns_Love_to_15_for_player_two_scores_at_Love_a
     // Arrange
     GameScore score_player_one {};
     GameScore score_player_two {};
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -221,11 +178,7 @@ TEST(AwardPoints, award_point_returns_Love_to_30_for_player_two_scores_at_Love_t
     // Arrange
     GameScore score_player_one {};
     GameScore score_player_two { Fifteen };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -244,11 +197,7 @@ TEST(AwardPoints, award_point_returns_Love_to_40_for_player_two_scores_at_Love_t
     // Arrange
     GameScore score_player_one {};
     GameScore score_player_two { Thirty };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -267,11 +216,7 @@ TEST(AwardPoints, award_point_returns_Love_to_Advantage_for_player_two_scores_at
     // Arrange
     GameScore score_player_one {};
     GameScore score_player_two { Forty };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -290,11 +235,7 @@ TEST(AwardPoints, award_point_returns_Love_to_AdvantageWon_for_player_two_scores
     // Arrange
     GameScore score_player_one {};
     GameScore score_player_two { Advantage };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -313,11 +254,7 @@ TEST(AwardPoints, award_point_return_Forty_to_Advantage_for_player_one_scores_at
     // Arrange
     GameScore score_player_one { Forty };
     GameScore score_player_two { Forty };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -336,11 +273,7 @@ TEST(AwardPoints, award_point_return_Forty_to_AdvantageWon_for_player_one_scores
     // Arrange
     GameScore score_player_one { Forty };
     GameScore score_player_two { Advantage };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,
@@ -361,11 +294,7 @@ TEST(AwardPoints, award_point_return_Forty_to_Forty_for_player_one_scores_at_For
     // Arrange
     GameScore score_player_one { Forty };
     GameScore score_player_two { Advantage };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( One,
@@ -384,11 +313,7 @@ TEST(AwardPoints, award_point_return_Forty_to_Forty_for_player_two_scores_at_Adv
     // Arrange
     GameScore score_player_one { Advantage };
     GameScore score_player_two { Forty };
-<<<<<<< HEAD
-    std::unique_ptr<Tennis::Logic::AwardPoints> sut = create_sut();
-=======
     std::unique_ptr<AwardPoints> sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->award_point ( Two,

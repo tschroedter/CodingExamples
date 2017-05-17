@@ -10,11 +10,7 @@ namespace Tennis
         class PossibleScores
         {
         private:
-<<<<<<< HEAD
-            const std::vector<std::string> m_scoreAsString = // todo make this static
-=======
             const std::vector<std::string> m_scoreAsString =
->>>>>>> Update from private repository
             {
                 "Unknown",
                 "0",

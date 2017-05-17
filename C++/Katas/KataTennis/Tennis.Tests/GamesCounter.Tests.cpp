@@ -3,20 +3,9 @@
 #include <gtest/gtest.h>
 #include "GamesCounter.h"
 #include "MockIGames.h"
-<<<<<<< HEAD
-
-void winOneGameForPlayer ( Tennis::Logic::IGame* game, Tennis::Logic::Player player )
-{
-    game->won_point ( player );
-    game->won_point ( player );
-    game->won_point ( player );
-    game->won_point ( player );
-}
-=======
 #include "Games.h"
 #include "MockIGame.h"
 #include "Game.h"
->>>>>>> Update from private repository
 
 TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_one_for_one_game_won_by_player_one)
 {
@@ -25,18 +14,6 @@ TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_
     // Arrange
     int8_t expected = static_cast<int8_t> ( 1 );
 
-<<<<<<< HEAD
-    std::unique_ptr<GameFactory> factory = std::make_unique<GameFactory>();
-    Games games { std::move ( factory ) };
-    games.new_game();
-    winOneGameForPlayer ( games.get_current_game(), One );
-
-    GamesCounter sut {};
-
-    // Act
-    const int8_t actual = sut.count_games_for_player ( One,
-                                                       &games );
-=======
     MockIGame* mock_game = new MockIGame{};
     IGame_Ptr game ( mock_game );
 
@@ -63,7 +40,6 @@ TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_
     // Act
     const int8_t actual = sut.count_games_for_player ( One,
                                                        games );
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(expected, actual);
@@ -76,18 +52,6 @@ TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_
     // Arrange
     int8_t expected = static_cast<int8_t> ( 0 );
 
-<<<<<<< HEAD
-    std::unique_ptr<GameFactory> factory = std::make_unique<GameFactory>();
-    Games games { std::move ( factory ) };
-    games.new_game();
-    winOneGameForPlayer ( games.get_current_game(), One );
-
-    GamesCounter sut {};
-
-    // Act
-    const int8_t actual = sut.count_games_for_player ( Two,
-                                                       &games );
-=======
     MockIGame* mock_game = new MockIGame{};
     IGame_Ptr game ( mock_game );
 
@@ -114,35 +78,16 @@ TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_
     // Act
     const int8_t actual = sut.count_games_for_player ( Two,
                                                        games );
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(expected, actual);
 }
 
-<<<<<<< HEAD
-TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_one_for_one_game_won_by_player_two)
-=======
 TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_two_for_one_game_won_by_player_two)
->>>>>>> Update from private repository
 {
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    int8_t expected = static_cast<int8_t> ( 0 );
-
-    std::unique_ptr<GameFactory> factory = std::make_unique<GameFactory>();
-    Games games { std::move ( factory ) };
-    games.new_game();
-    winOneGameForPlayer ( games.get_current_game(), Two );
-
-    GamesCounter sut {};
-
-    // Act
-    const int8_t actual = sut.count_games_for_player ( One,
-                                                       &games );
-=======
     int8_t expected = static_cast<int8_t> ( 1 );
 
     MockIGame* mock_game = new MockIGame{};
@@ -171,35 +116,16 @@ TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_
     // Act
     const int8_t actual = sut.count_games_for_player ( Two,
                                                        games );
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(expected, actual);
 }
 
-<<<<<<< HEAD
-TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_two_for_one_game_won_by_player_two)
-=======
 TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_one_for_one_game_won_by_player_two)
->>>>>>> Update from private repository
 {
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    int8_t expected = static_cast<int8_t> ( 1 );
-
-    std::unique_ptr<GameFactory> factory = std::make_unique<GameFactory>();
-    Games games { std::move ( factory ) };
-    games.new_game();
-    winOneGameForPlayer ( games.get_current_game(), Two );
-
-    GamesCounter sut {};
-
-    // Act
-    const int8_t actual = sut.count_games_for_player ( Two,
-                                                       &games );
-=======
     int8_t expected = static_cast<int8_t> ( 0 );
 
     MockIGame* mock_game = new MockIGame{};
@@ -228,7 +154,6 @@ TEST(GamesCounter, count_games_for_player_returns_number_of_games_won_by_player_
     // Act
     const int8_t actual = sut.count_games_for_player ( One,
                                                        games );
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(expected, actual);

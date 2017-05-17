@@ -24,12 +24,6 @@
     <ClInclude Include="include\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="include\Games.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="include\GameScore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -45,12 +39,6 @@
     <ClInclude Include="include\IGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="include\IGames.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="include\InputPlayerNames.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -93,18 +81,6 @@
     <ClInclude Include="include\ScoreBoard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="GameFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AwardPointsFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\SetFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="include\TieBreak.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -123,15 +99,6 @@
     <ClInclude Include="include\TieBreakStatusCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="include\TieBreakFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ITieBreaks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="include\SetStatus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -153,18 +120,6 @@
     <ClInclude Include="include\RequiredSetsToWin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="include\Sets.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ISets.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ISetFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="include\MatchCounter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -192,12 +147,6 @@
     <ClInclude Include="include\MatchStatusToStringConverter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="include\MatchFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\IMatchFactory.h">
-=======
     <ClInclude Include="include\ISets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -253,7 +202,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\IScoreboard.h">
->>>>>>> Update from private repository
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -276,12 +224,6 @@
     <ClCompile Include="GameScore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="Games.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-=======
->>>>>>> Update from private repository
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -297,48 +239,6 @@
     <ClCompile Include="Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="GameFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AwardPointsFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SetFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TieBreakScore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TieBreak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TieBreakFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TieBreakStatusCalculator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="include\Sets.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MatchWonPointHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MatchStatusCalculator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SetWonPointHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SetStatusCalculator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MatchCounter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Match.cpp">
-=======
     <ClCompile Include="TieBreakScore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -382,7 +282,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TieBreakWinnerCalculator.cpp">
->>>>>>> Update from private repository
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

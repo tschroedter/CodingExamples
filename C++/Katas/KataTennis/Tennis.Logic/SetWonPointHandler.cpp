@@ -2,20 +2,11 @@
 #include "include/Player.h"
 #include "include/IGame.h"
 #include "include/TieBreakStatus.h"
-<<<<<<< HEAD
-#include "include/IGames.h"
-=======
->>>>>>> Update from private repository
 
 namespace Tennis
 {
     namespace Logic
     {
-<<<<<<< HEAD
-        void SetWonPointHandler::won_game_point ( Player player ) const
-        {
-            IGame* m_current_game = m_games->get_current_game();
-=======
         void SetWonPointHandler::intitialize (
             const IGames_Ptr games,
             const ITieBreak_Ptr tie_break )
@@ -27,7 +18,6 @@ namespace Tennis
         void SetWonPointHandler::won_game_point ( const Player player ) const
         {
             IGame_Ptr m_current_game = m_games->get_current_game();
->>>>>>> Update from private repository
 
             m_current_game->won_point ( player );
 
@@ -36,19 +26,11 @@ namespace Tennis
             if ( game_status == PlayerOneWon ||
                 game_status == PlayerTwoWon )
             {
-<<<<<<< HEAD
-                m_games->new_game();
-            }
-        }
-
-        void SetWonPointHandler::won_tie_break_point ( Player player ) const
-=======
                 m_games->create_new_game();
             }
         }
 
         void SetWonPointHandler::won_tie_break_point ( const Player player ) const
->>>>>>> Update from private repository
         {
             TieBreakStatus tie_break_status = m_tie_break->get_status();
 
@@ -79,11 +61,7 @@ namespace Tennis
                     result;
         }
 
-<<<<<<< HEAD
-        void SetWonPointHandler::won_point ( Player player ) const
-=======
         void SetWonPointHandler::won_point ( const Player player ) const
->>>>>>> Update from private repository
         {
             // ReSharper disable once CppDefaultCaseNotHandledInSwitchStatement
             switch ( is_tie_break_Required() )

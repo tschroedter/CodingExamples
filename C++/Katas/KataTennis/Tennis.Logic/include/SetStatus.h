@@ -14,8 +14,4 @@ namespace Tennis
             SetStatus_Max
         };
     };
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> Update from private repository

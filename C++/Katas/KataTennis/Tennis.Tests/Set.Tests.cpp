@@ -6,54 +6,14 @@
 #include "MockIGames.h"
 #include <functional>
 #include "MemoryInfo.h"
-<<<<<<< HEAD
-#include "TieBreakFactory.h"
-#include "MockILogger.h"
-#include "GamesCounter.h"
-#include "MockIGamesCounterr.h"
-=======
 #include "MockILogger.h"
 #include "GamesCounter.h"
 #include "MockIGamesCounter.h"
->>>>>>> Update from private repository
 #include "MockITieBreak.h"
 #include "SetWonPointHandler.h"
 #include "MockISetWonPointHandler.h"
 #include "SetStatusCalculator.h"
 #include "MockISetStatusCalculator.h"
-<<<<<<< HEAD
-
-std::unique_ptr<Tennis::Logic::Set> createSet ()
-{
-    using namespace Tennis::Logic;
-
-    std::unique_ptr<IGamesCounter> counter_for_calculator = std::make_unique<GamesCounter>();
-    std::unique_ptr<IGamesCounter> counter_for_handler = std::make_unique<GamesCounter>();
-    std::unique_ptr<GameFactory> game_factory = std::make_unique<GameFactory>();
-    std::unique_ptr<IGames> games = std::make_unique<Games> ( std::move ( game_factory ) );
-    std::unique_ptr<ILogger> logger = std::make_unique<MockILogger>();
-    std::unique_ptr<TieBreakFactory> tie_break_factory = std::make_unique<TieBreakFactory> ( std::move ( logger ) );
-    std::unique_ptr<ILogger> tie_break_logger = std::make_unique<MockILogger>();
-    std::unique_ptr<ITieBreak> tie_break = std::make_unique<TieBreak> ( std::move ( tie_break_logger ) );
-
-    std::unique_ptr<ISetWonPointHandler> handler =
-            std::make_unique<SetWonPointHandler> (
-                                               std::move ( counter_for_handler ),
-                                               games.get(),
-                                               tie_break.get() );
-
-    std::unique_ptr<ISetStatusCalculator> calculator =
-            std::make_unique<SetStatusCalculator> (
-                                                   std::move ( counter_for_calculator ),
-                                                   games.get(),
-                                                   tie_break.get() );
-
-    std::unique_ptr<Set> sut = std::make_unique<Set> (
-                                                      std::move ( calculator ),
-                                                      std::move ( handler ),
-                                                      std::move ( games ),
-                                                      std::move ( tie_break ) );
-=======
 #include "MockISet.h"
 #include "Games.h"
 #include "CountPlayerGames.h"
@@ -153,31 +113,19 @@ Tennis::Logic::ISet_Ptr create_sut ()
                                           tie_break );
 
     sut->initialize();
->>>>>>> Update from private repository
 
     return sut;
 }
 
-<<<<<<< HEAD
-TEST(Set, get_current_gamereturns_a_current_game)
-=======
 TEST(Set, get_current_game_returns_a_current_game)
->>>>>>> Update from private repository
 {
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-
-    // Act
-    IGame* actual = sut->get_current_game();
-=======
     ISet_Ptr sut = create_sut();
 
     // Act
     IGame_Ptr actual = sut->get_current_game();
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_NE(nullptr, &actual);
@@ -189,17 +137,10 @@ TEST(Set, getGames_returns_all_games)
 
     // Arrange
     size_t expected { 1 };
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-
-    // Act
-    size_t actual = sut->get_games()->get_length();
-=======
     ISet_Ptr sut = create_sut();
 
     // Act
     size_t actual = sut->get_games()->get_number_of_games();
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(expected, actual);
@@ -210,11 +151,7 @@ TEST(Set, won_point_increases_score_for_player_one)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-=======
     ISet_Ptr sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->won_point ( One );
@@ -230,11 +167,7 @@ TEST(Set, won_point_increases_score_for_player_one_but_not_for_player_two)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-=======
     ISet_Ptr sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->won_point ( One );
@@ -250,11 +183,7 @@ TEST(Set, won_point_increases_score_for_player_two)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-=======
     ISet_Ptr sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->won_point ( Two );
@@ -270,11 +199,7 @@ TEST(Set, won_point_increases_score_for_player_two_but_not_for_player_one)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-=======
     ISet_Ptr sut = create_sut();
->>>>>>> Update from private repository
 
     // Act
     sut->won_point ( Two );
@@ -285,11 +210,7 @@ TEST(Set, won_point_increases_score_for_player_two_but_not_for_player_one)
     EXPECT_EQ(Scores::Love, actual);
 }
 
-<<<<<<< HEAD
-void make_player_win_game ( Tennis::Logic::Set* set,
-=======
 void make_player_win_game ( Tennis::Logic::ISet_Ptr set,
->>>>>>> Update from private repository
                             Tennis::Logic::Player player )
 {
     set->won_point ( player );
@@ -303,16 +224,6 @@ TEST(Set, won_point_creates_new_game_for_player_one_won_game)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-    IGame* old_game = sut->get_current_game();
-
-    // Act
-    make_player_win_game ( sut.get(), One );
-
-    // Assert
-    IGame* actual = sut->get_current_game();
-=======
     ISet_Ptr sut = create_sut();
     IGame_Ptr old_game = sut->get_current_game();
 
@@ -321,7 +232,6 @@ TEST(Set, won_point_creates_new_game_for_player_one_won_game)
 
     // Assert
     IGame_Ptr actual = sut->get_current_game();
->>>>>>> Update from private repository
 
     EXPECT_NE(&old_game, &actual);
 }
@@ -331,16 +241,6 @@ TEST(Set, won_point_creates_new_game_for_player_two_won_game)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-    IGame* old_game = sut->get_current_game();
-
-    // Act
-    make_player_win_game ( sut.get(), Two );
-
-    // Assert
-    IGame* actual = sut->get_current_game();
-=======
     ISet_Ptr sut = create_sut();
     IGame_Ptr old_game = sut->get_current_game();
 
@@ -349,7 +249,6 @@ TEST(Set, won_point_creates_new_game_for_player_two_won_game)
 
     // Assert
     IGame_Ptr actual = sut->get_current_game();
->>>>>>> Update from private repository
 
     EXPECT_NE(old_game, actual);
 }
@@ -360,17 +259,10 @@ TEST(Set, won_point_adds_new_game_to_games_for_player_one_won_game)
 
     // Arrange
     size_t expected = 2;
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-
-    // Act
-    make_player_win_game ( sut.get(), One );
-=======
     ISet_Ptr sut = create_sut();
 
     // Act
     make_player_win_game ( sut, One );
->>>>>>> Update from private repository
 
     // Assert
     size_t actual = sut->get_games_length();
@@ -384,17 +276,10 @@ TEST(Set, won_point_adds_new_game_to_games_for_player_two_won_game)
 
     // Arrange
     size_t expected = 2;
-<<<<<<< HEAD
-    std::unique_ptr<Set> sut = createSet();
-
-    // Act
-    make_player_win_game ( sut.get(), One );
-=======
     ISet_Ptr sut = create_sut();
 
     // Act
     make_player_win_game ( sut, One );
->>>>>>> Update from private repository
 
     // Assert
     size_t actual = sut->get_games_length();
@@ -408,29 +293,6 @@ TEST(Set, get_games_returns_games)
 
     // Arrange
     MockISetStatusCalculator* mock_calculator = new MockISetStatusCalculator();
-<<<<<<< HEAD
-    std::unique_ptr<ISetStatusCalculator> calculator ( mock_calculator );
-    MockIGames* mock_games = new MockIGames();
-    std::unique_ptr<IGames> games ( mock_games );
-    MockITieBreak* mock_tie_break = new MockITieBreak();
-    std::unique_ptr<ITieBreak> tie_break ( mock_tie_break );
-    MockISetWonPointHandler* mock_handler = new MockISetWonPointHandler();
-    std::unique_ptr<ISetWonPointHandler> handler ( mock_handler );
-
-    Set sut
-    {
-        std::move ( calculator ),
-        std::move ( handler ),
-        std::move ( games ),
-        std::move ( tie_break )
-    };
-
-    // Assert
-    const IGames* actual = sut.get_games();
-
-    // Act
-    EXPECT_EQ(mock_games, actual);
-=======
     ISetStatusCalculator_Ptr calculator ( mock_calculator );
     MockIGames* mock_games = new MockIGames();
     IGames_Ptr games ( mock_games );
@@ -452,7 +314,6 @@ TEST(Set, get_games_returns_games)
 
     // Act
     EXPECT_EQ(games, actual);
->>>>>>> Update from private repository
 }
 
 TEST(Set, won_point_calls_handlers)
@@ -460,24 +321,6 @@ TEST(Set, won_point_calls_handlers)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    MockISetStatusCalculator* mock_calculator = new MockISetStatusCalculator();
-    std::unique_ptr<ISetStatusCalculator> calculator ( mock_calculator );
-    MockIGame mock_game {};
-    MockIGames* mock_games = new MockIGames();
-    std::unique_ptr<IGames> games ( mock_games );
-    MockITieBreak* mock_tie_break = new MockITieBreak();
-    std::unique_ptr<ITieBreak> tie_break ( mock_tie_break );
-    MockISetWonPointHandler* mock_handler = new MockISetWonPointHandler();
-    std::unique_ptr<ISetWonPointHandler> handler ( mock_handler );
-
-    Set sut
-    {
-        std::move ( calculator ),
-        std::move ( handler ),
-        std::move ( games ),
-        std::move ( tie_break )
-=======
     ISetStatusCalculator_Ptr calculator = std::make_shared<MockISetStatusCalculator>();
     IGames_Ptr games = std::make_shared<MockIGames>();
     ITieBreak_Ptr tie_break = std::make_shared<MockITieBreak>();
@@ -490,7 +333,6 @@ TEST(Set, won_point_calls_handlers)
         handler,
         games,
         tie_break
->>>>>>> Update from private repository
     };
 
     // Assert
@@ -506,30 +348,6 @@ TEST(Set, get_status_calls_calculator)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    MockISetStatusCalculator* mock_calculator = new MockISetStatusCalculator();
-    std::unique_ptr<ISetStatusCalculator> calculator ( mock_calculator );
-    MockIGame mock_game {};
-    MockIGames* mock_games = new MockIGames();
-    std::unique_ptr<IGames> games ( mock_games );
-    MockITieBreak* mock_tie_break = new MockITieBreak();
-    std::unique_ptr<ITieBreak> tie_break ( mock_tie_break );
-    MockISetWonPointHandler* mock_handler = new MockISetWonPointHandler();
-    std::unique_ptr<ISetWonPointHandler> handler ( mock_handler );
-
-    Set sut
-    {
-        std::move ( calculator ),
-        std::move ( handler ),
-        std::move ( games ),
-        std::move ( tie_break )
-    };
-
-    // Assert
-    EXPECT_CALL(*mock_calculator, get_status())
-                                               .Times ( 1 )
-                                               .WillOnce ( testing::Return ( SetStatus_NotStarted ) );
-=======
     IGames_Ptr games = std::make_shared<MockIGames>();
     ITieBreak_Ptr tie_break = std::make_shared<MockITieBreak>();
 
@@ -549,7 +367,6 @@ TEST(Set, get_status_calls_calculator)
     EXPECT_CALL(*mock_calculator, get_status(games, tie_break))
                                                                .Times ( 1 )
                                                                .WillOnce ( testing::Return ( SetStatus_NotStarted ) );
->>>>>>> Update from private repository
 
     // Act
     sut.get_status();
@@ -560,28 +377,6 @@ TEST(Set, get_tie_break_calls_tie_break)
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    MockISetStatusCalculator* mock_calculator = new MockISetStatusCalculator();
-    std::unique_ptr<ISetStatusCalculator> calculator ( mock_calculator );
-    MockIGame mock_game {};
-    MockIGames* mock_games = new MockIGames();
-    std::unique_ptr<IGames> games ( mock_games );
-    MockITieBreak* mock_tie_break = new MockITieBreak();
-    std::unique_ptr<ITieBreak> tie_break ( mock_tie_break );
-    MockISetWonPointHandler* mock_handler = new MockISetWonPointHandler();
-    std::unique_ptr<ISetWonPointHandler> handler ( mock_handler );
-
-    Set sut
-    {
-        std::move ( calculator ),
-        std::move ( handler ),
-        std::move ( games ),
-        std::move ( tie_break )
-    };
-
-    // Act
-    const ITieBreak* actual = sut.get_tie_break();
-=======
     ISetStatusCalculator_Ptr calculator = std::make_shared<MockISetStatusCalculator>();
     ISetWonPointHandler_Ptr handler = std::make_shared<MockISetWonPointHandler>();
     IGames_Ptr games = std::make_shared<MockIGames>();
@@ -597,13 +392,10 @@ TEST(Set, get_tie_break_calls_tie_break)
 
     // Act
     const ITieBreak_Ptr actual = sut.get_tie_break();
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_NE(nullptr, actual);
 }
-<<<<<<< HEAD
-=======
 
 TEST(Set, get_tie_break_status_returns_status)
 {
@@ -668,4 +460,3 @@ TEST(Set, initialize_calls_games_and_handler)
 
     sut.initialize();
 }
->>>>>>> Update from private repository

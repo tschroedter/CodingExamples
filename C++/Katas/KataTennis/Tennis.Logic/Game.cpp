@@ -4,10 +4,7 @@
 #include "include/GameStatusCalculator.h"
 #include "include/Scores.h"
 #include <string>
-<<<<<<< HEAD
-=======
 #include "include/PlayerException.h"
->>>>>>> Update from private repository
 
 namespace Tennis
 {
@@ -33,11 +30,7 @@ namespace Tennis
         void Game::updateStatus ()
         {
             m_game_status =
-<<<<<<< HEAD
-                    GameStatusCalculator::calculate ( // todo depency injection
-=======
                     GameStatusCalculator::calculate (
->>>>>>> Update from private repository
                                                      m_score_player_one->get_score(),
                                                      m_score_player_two->get_score() );
         }
@@ -62,12 +55,7 @@ namespace Tennis
                 case Two :
                     return m_score_player_two->get_score();
                 default :
-<<<<<<< HEAD
-                    m_logger->error ( "Unknown Player type: " + std::to_string ( player ) );
-                    return Unknown;
-=======
                     throw PlayerException ( "Unknown Player type: " + std::to_string ( player ) );
->>>>>>> Update from private repository
             }
         }
 
@@ -80,12 +68,7 @@ namespace Tennis
                 case Two :
                     return m_score_player_two->to_string();
                 default :
-<<<<<<< HEAD
-                    m_logger->error ( "Unknown Player type: " + std::to_string ( player ) ); // todo exceptions
-                    return "Unknown";
-=======
                     throw PlayerException ( "Unknown Player type: " + std::to_string ( player ) );
->>>>>>> Update from private repository
             }
         }
     };

@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include <gtest/gtest.h>
 #include "Logger.h"
-#include "GameScore.h"
 
 TEST(Logger, debug_writes_message_to_ostream)
 {
@@ -9,9 +8,6 @@ TEST(Logger, debug_writes_message_to_ostream)
 
     // Arrange
     std::stringstream ostream;
-
-    GameScore score_player_one {};
-    GameScore score_player_two {};
 
     Logger sut { ostream };
 
@@ -31,9 +27,6 @@ TEST(Logger, error_writes_message_to_ostream)
     // Arrange
     std::stringstream ostream;
 
-    GameScore score_player_one {};
-    GameScore score_player_two {};
-
     Logger sut { ostream };
 
     // Act
@@ -52,9 +45,6 @@ TEST(Logger, info_writes_message_to_ostream)
     // Arrange
     std::stringstream ostream;
 
-    GameScore score_player_one {};
-    GameScore score_player_two {};
-
     Logger sut { ostream };
 
     // Act
@@ -65,8 +55,6 @@ TEST(Logger, info_writes_message_to_ostream)
 
     EXPECT_EQ("INFO: Test\n", actual);
 }
-<<<<<<< HEAD
-=======
 
 TEST(Logger, warning_writes_message_to_ostream)
 {
@@ -74,9 +62,6 @@ TEST(Logger, warning_writes_message_to_ostream)
 
     // Arrange
     std::stringstream ostream;
-
-    GameScore score_player_one {};
-    GameScore score_player_two {};
 
     Logger sut { ostream };
 
@@ -88,4 +73,3 @@ TEST(Logger, warning_writes_message_to_ostream)
 
     EXPECT_EQ("WARNING: Test\n", actual);
 }
->>>>>>> Update from private repository

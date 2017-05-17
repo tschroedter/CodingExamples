@@ -3,15 +3,10 @@
 #include <gmock/gmock-generated-function-mockers.h>
 #include "SetStatusCalculator.h"
 #include <memory>
-<<<<<<< HEAD
-#include "MockIGames.h"
-#include "MockIGamesCounterr.h"
-=======
 #include "MockIGame.h"
 #include "MockICountPlayerGames.h"
 #include "MockISet.h"
 #include "MockIGames.h"
->>>>>>> Update from private repository
 #include "MockITieBreak.h"
 
 void get_status_test_returned_status_for_given_score (
@@ -22,30 +17,6 @@ void get_status_test_returned_status_for_given_score (
     using namespace Tennis::Logic;
 
     // Arrange
-<<<<<<< HEAD
-    MockIGamesCounter* mock_counter = new MockIGamesCounter();
-    std::unique_ptr<IGamesCounter> counter ( mock_counter );
-    MockIGame mock_game {};
-    MockIGames mock_games {};
-    MockITieBreak mock_tie_break {};
-    SetStatusCalculator sut
-    {
-        std::move ( counter ),
-        &mock_games,
-        &mock_tie_break
-    };
-
-    EXPECT_CALL(*mock_counter, count_games_for_player(One, &mock_games))
-                                                                        .Times ( 1 )
-                                                                        .WillOnce ( testing::Return ( static_cast<int8_t> ( score_player_one ) ) );
-
-    EXPECT_CALL(*mock_counter, count_games_for_player(Two, &mock_games))
-                                                                        .Times ( 1 )
-                                                                        .WillOnce ( testing::Return ( static_cast<int8_t> ( score_player_two ) ) );
-
-    // Act
-    SetStatus actual = sut.get_status();
-=======
     MockIGames* mock_games = new MockIGames{};
     IGames_Ptr games ( mock_games );
     MockITieBreak* mock_tie_break = new MockITieBreak{};
@@ -75,7 +46,6 @@ void get_status_test_returned_status_for_given_score (
     // Act
     SetStatus actual = sut.get_status ( games,
                                         tie_break );
->>>>>>> Update from private repository
 
     // Assert
     EXPECT_EQ(exoected, actual);

@@ -2,10 +2,6 @@
 
 #include "Windows.h"
 #include "psapi.h"
-<<<<<<< HEAD
-#include <memory>
-=======
->>>>>>> Update from private repository
 
 struct MemoryDetails
 {

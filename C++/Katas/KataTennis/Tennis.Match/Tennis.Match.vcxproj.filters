@@ -30,8 +30,6 @@
     <ClInclude Include="MemoryLeakTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-=======
     <ClInclude Include="PlayMatch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -41,7 +39,6 @@
     <ClInclude Include="IIOCContainerBuilder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
->>>>>>> Update from private repository
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -53,14 +50,11 @@
     <ClCompile Include="MemoryLeakTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-=======
     <ClCompile Include="PlayMatch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="IOCContainerBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
->>>>>>> Update from private repository
   </ItemGroup>
 </Project>

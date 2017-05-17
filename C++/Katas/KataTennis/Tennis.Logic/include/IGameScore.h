@@ -1,10 +1,7 @@
 #pragma once
 #include "Scores.h"
-<<<<<<< HEAD
-=======
 #include <string>
 #include <memory>
->>>>>>> Update from private repository
 
 namespace Tennis
 {
@@ -20,10 +17,7 @@ namespace Tennis
             virtual void lost_point () = 0;
             virtual Scores get_score () const = 0;
         };
-<<<<<<< HEAD
-=======
 
         typedef std::shared_ptr<IGameScore> IGameScore_Ptr;
->>>>>>> Update from private repository
     };
 };

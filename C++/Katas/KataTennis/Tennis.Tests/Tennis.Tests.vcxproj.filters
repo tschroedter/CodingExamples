@@ -27,12 +27,6 @@
     <ClInclude Include="MockIPlayerNameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="MockIGamesCounterr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="MockISet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -60,12 +54,6 @@
     <ClInclude Include="MockISetStatusCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="MockISetFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="MockISets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -75,20 +63,12 @@
     <ClInclude Include="MockIMatchStatusCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="MatchWonPointHandler.Tests.cpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-=======
->>>>>>> Update from private repository
     <ClInclude Include="MockIMatchWonPointHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MockISetWonPointHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-=======
     <ClInclude Include="MockITieBreakWinnerCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -104,18 +84,11 @@
     <ClInclude Include="MockIGamesCounter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
->>>>>>> Update from private repository
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="Tennis.Tests.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-=======
->>>>>>> Update from private repository
     <ClCompile Include="PossibleScores.Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -164,12 +137,6 @@
     <ClCompile Include="Match.Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="Sets.Tests.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-=======
->>>>>>> Update from private repository
     <ClCompile Include="MatchCounter.Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -179,8 +146,6 @@
     <ClCompile Include="SetWonPointHandler.Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-=======
     <ClCompile Include="InputPlayerNames.Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -211,6 +176,5 @@
     <ClCompile Include="BaseException.Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
->>>>>>> Update from private repository
   </ItemGroup>
 </Project>

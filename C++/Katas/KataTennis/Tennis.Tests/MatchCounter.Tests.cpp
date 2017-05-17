@@ -3,10 +3,7 @@
 #include "Match.h"
 #include "MockISets.h"
 #include "MatchCounter.h"
-<<<<<<< HEAD
-=======
 #include "MockISet.h"
->>>>>>> Update from private repository
 
 TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player)
 {
@@ -14,17 +11,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player)
 
     // Arrange
     MockISet* mock_set_one = new MockISet();
-<<<<<<< HEAD
-    std::unique_ptr<ISet> set_one { mock_set_one };
-
-    MockISet* mock_set_two = new MockISet();
-    std::unique_ptr<ISet> set_two { mock_set_two };
-
-    MockISets* mock_sets = new MockISets();
-    mock_sets->sets.clear();
-    mock_sets->sets.push_back ( set_one.get() );
-    mock_sets->sets.push_back ( set_two.get() );
-=======
     ISet_Ptr set_one { mock_set_one };
 
     MockISet* mock_set_two = new MockISet();
@@ -32,7 +18,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player)
 
     MockISets* mock_sets = new MockISets();
     ISets_Ptr sets ( mock_sets );
->>>>>>> Update from private repository
 
     MatchCounter sut {};
 
@@ -45,12 +30,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player)
                                             .Times ( 1 )
                                             .WillOnce ( testing::Return ( SetStatus_PlayerOneWon ) );
 
-<<<<<<< HEAD
-    // Act
-    int8_t actual = sut.count_sets_won_by_player (
-                                                  One,
-                                                  mock_sets );
-=======
     EXPECT_CALL(*mock_sets, get_number_of_sets())
                                                  .Times ( 1 )
                                                  .WillOnce ( testing::Return ( 2 ) );
@@ -67,7 +46,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player)
     int8_t actual = sut.count_sets_won_by_player (
                                                   One,
                                                   sets );
->>>>>>> Update from private repository
     EXPECT_EQ(2, actual);
 }
 
@@ -77,17 +55,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player_not_for_t
 
     // Arrange
     MockISet* mock_set_one = new MockISet();
-<<<<<<< HEAD
-    std::unique_ptr<ISet> set_one { mock_set_one };
-
-    MockISet* mock_set_two = new MockISet();
-    std::unique_ptr<ISet> set_two { mock_set_two };
-
-    MockISets* mock_sets = new MockISets();
-    mock_sets->sets.clear();
-    mock_sets->sets.push_back ( set_one.get() );
-    mock_sets->sets.push_back ( set_two.get() );
-=======
     ISet_Ptr set_one { mock_set_one };
 
     MockISet* mock_set_two = new MockISet();
@@ -95,7 +62,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player_not_for_t
 
     MockISets* mock_sets = new MockISets();
     ISets_Ptr sets ( mock_sets );
->>>>>>> Update from private repository
 
     MatchCounter sut {};
 
@@ -108,12 +74,6 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player_not_for_t
                                             .Times ( 1 )
                                             .WillOnce ( testing::Return ( SetStatus_PlayerOneWon ) );
 
-<<<<<<< HEAD
-    // Act
-    int8_t actual = sut.count_sets_won_by_player (
-                                                  Two,
-                                                  mock_sets );
-=======
     EXPECT_CALL(*mock_sets, get_number_of_sets())
                                                  .Times ( 1 )
                                                  .WillOnce ( testing::Return ( 2 ) );
@@ -130,6 +90,5 @@ TEST(MatchCounter, count_sets_won_by_player_returns_sets_won_by_player_not_for_t
     int8_t actual = sut.count_sets_won_by_player (
                                                   Two,
                                                   sets );
->>>>>>> Update from private repository
     EXPECT_EQ(0, actual);
 }

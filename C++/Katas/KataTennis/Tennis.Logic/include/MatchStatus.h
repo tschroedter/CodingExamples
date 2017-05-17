@@ -13,8 +13,4 @@ namespace Tennis
             MatchStatus_Max
         };
     };
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> Update from private repository

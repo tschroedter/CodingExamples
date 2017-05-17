@@ -13,8 +13,4 @@ namespace Tennis
             RequiredSetsToWin_Max
         };
     };
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> Update from private repository
